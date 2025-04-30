@@ -1,0 +1,23 @@
+{
+  "overall": {
+    "correct": 3,
+    "total": 3,
+    "accuracy": 1.0
+  },
+  "relation_extraction": {
+    "correct": 3,
+    "total": 3,
+    "accuracy": 1.0
+  },
+  "symbol_grounding": {
+    "correct": 0,
+    "total": 0,
+    "accuracy": 0.0
+  },
+  "integration": {
+    "correct": 0,
+    "total": 0,
+    "accuracy": 0.0
+  },
+  "errors": []
+}

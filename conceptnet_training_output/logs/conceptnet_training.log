@@ -1,0 +1,298 @@
+2025-04-28 23:58:26,591 - ConceptNetTrainer - INFO - ConceptNet training system initialized
+2025-04-28 23:58:26,593 - ConceptNetTrainer - INFO - Starting full ConceptNet training pipeline...
+2025-04-28 23:58:26,593 - ConceptNetTrainer - INFO - Integrating ConceptNet knowledge to symbolic KB...
+2025-04-28 23:58:26,612 - ConceptNetTrainer - INFO - Added 16 ConceptNet facts to symbolic KB
+2025-04-28 23:58:26,613 - ConceptNetTrainer - INFO - Integrating ConceptNet knowledge to vector symbolic KB...
+2025-04-28 23:58:26,617 - ConceptNetTrainer - INFO - Added 16 ConceptNet facts to vector symbolic KB
+2025-04-28 23:58:26,618 - ConceptNetTrainer - INFO - Integrated 16 symbolic facts and 16 vector facts
+2025-04-28 23:58:26,619 - ConceptNetTrainer - INFO - Preparing datasets for training...
+2025-04-28 23:58:26,619 - ConceptNetTrainer - INFO - Creating examples from ConceptNet file: training\datasets\conceptnet\sample_data.csv
+2025-04-28 23:58:26,621 - ConceptNetTrainer - INFO - Saved 14 train examples to conceptnet_training_output\examples\train_examples.json
+2025-04-28 23:58:26,622 - ConceptNetTrainer - INFO - Saved 3 val examples to conceptnet_training_output\examples\val_examples.json
+2025-04-28 23:58:26,623 - ConceptNetTrainer - INFO - Saved 3 test examples to conceptnet_training_output\examples\test_examples.json
+2025-04-28 23:58:26,625 - ConceptNetTrainer - INFO - Saved 5 grounding examples to conceptnet_training_output\examples\grounding_examples.json
+2025-04-28 23:58:26,627 - ConceptNetTrainer - INFO - Saved 5 integration examples to conceptnet_training_output\examples\integration_examples.json
+2025-04-28 23:58:26,627 - ConceptNetTrainer - INFO - Dataset preparation complete: 30 total examples
+2025-04-28 23:58:26,627 - ConceptNetTrainer - INFO - === Phase 1: Symbol Grounding ===
+2025-04-28 23:58:26,628 - ConceptNetTrainer - INFO - Training symbol grounding for 2 epochs
+2025-04-28 23:58:26,628 - ConceptNetTrainer - INFO - Epoch 1, Batch 1/1: Accuracy: 1.0000, Confidence: 0.8000
+2025-04-28 23:58:26,628 - ConceptNetTrainer - INFO - Epoch 1: Accuracy = 1.0000, Confidence = 0.8000
+2025-04-28 23:58:26,628 - ConceptNetTrainer - INFO - Epoch 2, Batch 1/1: Accuracy: 1.0000, Confidence: 0.8000
+2025-04-28 23:58:26,629 - ConceptNetTrainer - INFO - Epoch 2: Accuracy = 1.0000, Confidence = 0.8000
+2025-04-28 23:58:26,630 - ConceptNetTrainer - INFO - Saved training state to conceptnet_training_output\checkpoint_after_grounding.json
+2025-04-28 23:58:26,630 - ConceptNetTrainer - INFO - === Phase 2: Relation Extraction ===
+2025-04-28 23:58:26,630 - ConceptNetTrainer - INFO - Training relation extraction for 2 epochs
+2025-04-28 23:58:26,636 - ConceptNetTrainer - INFO - Epoch 1, Batch 1/1: Accuracy: 0.8571, Loss: 0.2429
+2025-04-28 23:58:26,637 - ConceptNetTrainer - INFO - Validation: Accuracy: 1.0000, Loss: 0.2000
+2025-04-28 23:58:26,638 - ConceptNetTrainer - INFO - Epoch 1 complete: Accuracy: 0.8571, Loss: 0.2429, Examples: 14
+2025-04-28 23:58:26,639 - ConceptNetTrainer - INFO - Epoch 2, Batch 1/1: Accuracy: 0.8571, Loss: 0.2429
+2025-04-28 23:58:26,640 - ConceptNetTrainer - INFO - Validation: Accuracy: 1.0000, Loss: 0.2000
+2025-04-28 23:58:26,640 - ConceptNetTrainer - INFO - Epoch 2 complete: Accuracy: 0.8571, Loss: 0.2429, Examples: 14
+2025-04-28 23:58:26,641 - ConceptNetTrainer - INFO - Saved training state to conceptnet_training_output\checkpoint_after_relation.json
+2025-04-28 23:58:26,642 - ConceptNetTrainer - INFO - === Phase 3: Knowledge Abstraction ===
+2025-04-28 23:58:26,642 - ConceptNetTrainer - INFO - Training knowledge abstraction for 1 epochs
+2025-04-28 23:58:26,642 - ConceptNetTrainer - INFO - Knowledge abstraction - Epoch 1/1
+2025-04-28 23:58:26,643 - ConceptNetTrainer - INFO - Epoch 1: Added 1 abstractions, Validation rate: 1.0000, Duration: 0.00s
+2025-04-28 23:58:26,644 - ConceptNetTrainer - INFO - Saved training state to conceptnet_training_output\checkpoint_after_abstraction.json
+2025-04-28 23:58:26,644 - ConceptNetTrainer - INFO - === Phase 4: Integration Training ===
+2025-04-28 23:58:26,644 - ConceptNetTrainer - INFO - Training integration for 1 epochs
+2025-04-28 23:58:26,645 - ConceptNetTrainer - INFO - Integration - Epoch 1/1
+2025-04-28 23:58:55,088 - ConceptNetTrainer - INFO - ConceptNet training system initialized
+2025-04-28 23:58:55,091 - ConceptNetTrainer - INFO - Starting full ConceptNet training pipeline...
+2025-04-28 23:58:55,091 - ConceptNetTrainer - INFO - Integrating ConceptNet knowledge to symbolic KB...
+2025-04-28 23:58:55,111 - ConceptNetTrainer - INFO - Added 16 ConceptNet facts to symbolic KB
+2025-04-28 23:58:55,111 - ConceptNetTrainer - INFO - Integrating ConceptNet knowledge to vector symbolic KB...
+2025-04-28 23:58:55,116 - ConceptNetTrainer - INFO - Added 16 ConceptNet facts to vector symbolic KB
+2025-04-28 23:58:55,116 - ConceptNetTrainer - INFO - Integrated 16 symbolic facts and 16 vector facts
+2025-04-28 23:58:55,116 - ConceptNetTrainer - INFO - Preparing datasets for training...
+2025-04-28 23:58:55,116 - ConceptNetTrainer - INFO - Creating examples from ConceptNet file: training\datasets\conceptnet\sample_data.csv
+2025-04-28 23:58:55,119 - ConceptNetTrainer - INFO - Saved 14 train examples to conceptnet_training_output\examples\train_examples.json
+2025-04-28 23:58:55,120 - ConceptNetTrainer - INFO - Saved 3 val examples to conceptnet_training_output\examples\val_examples.json
+2025-04-28 23:58:55,121 - ConceptNetTrainer - INFO - Saved 3 test examples to conceptnet_training_output\examples\test_examples.json
+2025-04-28 23:58:55,123 - ConceptNetTrainer - INFO - Saved 5 grounding examples to conceptnet_training_output\examples\grounding_examples.json
+2025-04-28 23:58:55,123 - ConceptNetTrainer - INFO - Saved 5 integration examples to conceptnet_training_output\examples\integration_examples.json
+2025-04-28 23:58:55,124 - ConceptNetTrainer - INFO - Dataset preparation complete: 30 total examples
+2025-04-28 23:58:55,124 - ConceptNetTrainer - INFO - === Phase 1: Symbol Grounding ===
+2025-04-28 23:58:55,124 - ConceptNetTrainer - INFO - Training symbol grounding for 2 epochs
+2025-04-28 23:58:55,125 - ConceptNetTrainer - INFO - Epoch 1, Batch 1/1: Accuracy: 1.0000, Confidence: 0.8000
+2025-04-28 23:58:55,125 - ConceptNetTrainer - INFO - Epoch 1: Accuracy = 1.0000, Confidence = 0.8000
+2025-04-28 23:58:55,125 - ConceptNetTrainer - INFO - Epoch 2, Batch 1/1: Accuracy: 1.0000, Confidence: 0.8000
+2025-04-28 23:58:55,125 - ConceptNetTrainer - INFO - Epoch 2: Accuracy = 1.0000, Confidence = 0.8000
+2025-04-28 23:58:55,127 - ConceptNetTrainer - INFO - Saved training state to conceptnet_training_output\checkpoint_after_grounding.json
+2025-04-28 23:58:55,127 - ConceptNetTrainer - INFO - === Phase 2: Relation Extraction ===
+2025-04-28 23:58:55,127 - ConceptNetTrainer - INFO - Training relation extraction for 2 epochs
+2025-04-28 23:58:55,133 - ConceptNetTrainer - INFO - Epoch 1, Batch 1/1: Accuracy: 1.0000, Loss: 0.2429
+2025-04-28 23:58:55,134 - ConceptNetTrainer - INFO - Validation: Accuracy: 1.0000, Loss: 0.2000
+2025-04-28 23:58:55,135 - ConceptNetTrainer - INFO - Epoch 1 complete: Accuracy: 1.0000, Loss: 0.2429, Examples: 14
+2025-04-28 23:58:55,136 - ConceptNetTrainer - INFO - Epoch 2, Batch 1/1: Accuracy: 1.0000, Loss: 0.2429
+2025-04-28 23:58:55,137 - ConceptNetTrainer - INFO - Validation: Accuracy: 1.0000, Loss: 0.2000
+2025-04-28 23:58:55,137 - ConceptNetTrainer - INFO - Epoch 2 complete: Accuracy: 1.0000, Loss: 0.2429, Examples: 14
+2025-04-28 23:58:55,138 - ConceptNetTrainer - INFO - Saved training state to conceptnet_training_output\checkpoint_after_relation.json
+2025-04-28 23:58:55,138 - ConceptNetTrainer - INFO - === Phase 3: Knowledge Abstraction ===
+2025-04-28 23:58:55,138 - ConceptNetTrainer - INFO - Training knowledge abstraction for 1 epochs
+2025-04-28 23:58:55,139 - ConceptNetTrainer - INFO - Knowledge abstraction - Epoch 1/1
+2025-04-28 23:58:55,140 - ConceptNetTrainer - INFO - Epoch 1: Added 1 abstractions, Validation rate: 1.0000, Duration: 0.00s
+2025-04-28 23:58:55,140 - ConceptNetTrainer - INFO - Saved training state to conceptnet_training_output\checkpoint_after_abstraction.json
+2025-04-28 23:58:55,141 - ConceptNetTrainer - INFO - === Phase 4: Integration Training ===
+2025-04-28 23:58:55,141 - ConceptNetTrainer - INFO - Training integration for 1 epochs
+2025-04-28 23:58:55,141 - ConceptNetTrainer - INFO - Integration - Epoch 1/1
+2025-04-28 23:59:32,915 - ConceptNetTrainer - INFO - ConceptNet training system initialized
+2025-04-28 23:59:32,916 - ConceptNetTrainer - INFO - Integrating ConceptNet knowledge to symbolic KB...
+2025-04-28 23:59:32,934 - ConceptNetTrainer - INFO - Added 16 ConceptNet facts to symbolic KB
+2025-04-28 23:59:32,935 - ConceptNetTrainer - INFO - Integrating ConceptNet knowledge to vector symbolic KB...
+2025-04-28 23:59:32,940 - ConceptNetTrainer - INFO - Added 16 ConceptNet facts to vector symbolic KB
+2025-04-29 00:02:56,042 - ConceptNetTrainer - INFO - ConceptNet training system initialized
+2025-04-29 00:02:56,045 - ConceptNetTrainer - INFO - Starting full ConceptNet training pipeline...
+2025-04-29 00:02:56,045 - ConceptNetTrainer - INFO - Integrating ConceptNet knowledge to symbolic KB...
+2025-04-29 00:02:56,062 - ConceptNetTrainer - INFO - Added 16 ConceptNet facts to symbolic KB
+2025-04-29 00:02:56,062 - ConceptNetTrainer - INFO - Integrating ConceptNet knowledge to vector symbolic KB...
+2025-04-29 00:02:56,068 - ConceptNetTrainer - INFO - Added 16 ConceptNet facts to vector symbolic KB
+2025-04-29 00:02:56,068 - ConceptNetTrainer - INFO - Integrated 16 symbolic facts and 16 vector facts
+2025-04-29 00:02:56,068 - ConceptNetTrainer - INFO - Preparing datasets for training...
+2025-04-29 00:02:56,069 - ConceptNetTrainer - INFO - Creating examples from ConceptNet file: training\datasets\conceptnet\sample_data.csv
+2025-04-29 00:02:56,070 - ConceptNetTrainer - INFO - Saved 14 train examples to conceptnet_training_output\examples\train_examples.json
+2025-04-29 00:02:56,071 - ConceptNetTrainer - INFO - Saved 3 val examples to conceptnet_training_output\examples\val_examples.json
+2025-04-29 00:02:56,071 - ConceptNetTrainer - INFO - Saved 3 test examples to conceptnet_training_output\examples\test_examples.json
+2025-04-29 00:02:56,073 - ConceptNetTrainer - INFO - Saved 5 grounding examples to conceptnet_training_output\examples\grounding_examples.json
+2025-04-29 00:02:56,073 - ConceptNetTrainer - INFO - Saved 5 integration examples to conceptnet_training_output\examples\integration_examples.json
+2025-04-29 00:02:56,073 - ConceptNetTrainer - INFO - Dataset preparation complete: 30 total examples
+2025-04-29 00:02:56,074 - ConceptNetTrainer - INFO - === Phase 1: Symbol Grounding ===
+2025-04-29 00:02:56,074 - ConceptNetTrainer - INFO - Training symbol grounding for 2 epochs
+2025-04-29 00:02:56,074 - ConceptNetTrainer - INFO - Epoch 1, Batch 1/1: Accuracy: 1.0000, Confidence: 0.8000
+2025-04-29 00:02:56,074 - ConceptNetTrainer - INFO - Epoch 1: Accuracy = 1.0000, Confidence = 0.8000
+2025-04-29 00:02:56,075 - ConceptNetTrainer - INFO - Epoch 2, Batch 1/1: Accuracy: 1.0000, Confidence: 0.8000
+2025-04-29 00:02:56,075 - ConceptNetTrainer - INFO - Epoch 2: Accuracy = 1.0000, Confidence = 0.8000
+2025-04-29 00:02:56,075 - ConceptNetTrainer - INFO - Saved training state to conceptnet_training_output\checkpoint_after_grounding.json
+2025-04-29 00:02:56,076 - ConceptNetTrainer - INFO - === Phase 2: Relation Extraction ===
+2025-04-29 00:02:56,076 - ConceptNetTrainer - INFO - Training relation extraction for 2 epochs
+2025-04-29 00:02:56,082 - ConceptNetTrainer - INFO - Epoch 1, Batch 1/1: Accuracy: 0.7857, Loss: 0.2429
+2025-04-29 00:02:56,082 - ConceptNetTrainer - INFO - Validation: Accuracy: 1.0000, Loss: 0.2000
+2025-04-29 00:02:56,083 - ConceptNetTrainer - INFO - Epoch 1 complete: Accuracy: 0.7857, Loss: 0.2429, Examples: 14
+2025-04-29 00:02:56,084 - ConceptNetTrainer - INFO - Epoch 2, Batch 1/1: Accuracy: 0.7857, Loss: 0.2429
+2025-04-29 00:02:56,084 - ConceptNetTrainer - INFO - Validation: Accuracy: 1.0000, Loss: 0.2000
+2025-04-29 00:02:56,084 - ConceptNetTrainer - INFO - Epoch 2 complete: Accuracy: 0.7857, Loss: 0.2429, Examples: 14
+2025-04-29 00:02:56,085 - ConceptNetTrainer - INFO - Saved training state to conceptnet_training_output\checkpoint_after_relation.json
+2025-04-29 00:02:56,085 - ConceptNetTrainer - INFO - === Phase 3: Knowledge Abstraction ===
+2025-04-29 00:02:56,085 - ConceptNetTrainer - INFO - Training knowledge abstraction for 1 epochs
+2025-04-29 00:02:56,086 - ConceptNetTrainer - INFO - Knowledge abstraction - Epoch 1/1
+2025-04-29 00:02:56,086 - ConceptNetTrainer - INFO - Epoch 1: Added 1 abstractions, Validation rate: 1.0000, Duration: 0.00s
+2025-04-29 00:02:56,087 - ConceptNetTrainer - INFO - Saved training state to conceptnet_training_output\checkpoint_after_abstraction.json
+2025-04-29 00:02:56,087 - ConceptNetTrainer - INFO - === Phase 4: Integration Training ===
+2025-04-29 00:02:56,087 - ConceptNetTrainer - INFO - Training integration for 1 epochs
+2025-04-29 00:02:56,087 - ConceptNetTrainer - INFO - Integration - Epoch 1/1
+2025-04-29 00:05:42,029 - ConceptNetTrainer - INFO - ConceptNet training system initialized
+2025-04-29 00:05:42,032 - ConceptNetTrainer - INFO - Starting full ConceptNet training pipeline...
+2025-04-29 00:05:42,032 - ConceptNetTrainer - INFO - Integrating ConceptNet knowledge to symbolic KB...
+2025-04-29 00:05:42,057 - ConceptNetTrainer - INFO - Added 16 ConceptNet facts to symbolic KB
+2025-04-29 00:05:42,057 - ConceptNetTrainer - INFO - Integrating ConceptNet knowledge to vector symbolic KB...
+2025-04-29 00:05:42,064 - ConceptNetTrainer - INFO - Added 16 ConceptNet facts to vector symbolic KB
+2025-04-29 00:05:42,064 - ConceptNetTrainer - INFO - Integrated 16 symbolic facts and 16 vector facts
+2025-04-29 00:05:42,064 - ConceptNetTrainer - INFO - Preparing datasets for training...
+2025-04-29 00:05:42,064 - ConceptNetTrainer - INFO - Creating examples from ConceptNet file: training\datasets\conceptnet\sample_data.csv
+2025-04-29 00:05:42,067 - ConceptNetTrainer - INFO - Saved 14 train examples to conceptnet_training_output\examples\train_examples.json
+2025-04-29 00:05:42,068 - ConceptNetTrainer - INFO - Saved 3 val examples to conceptnet_training_output\examples\val_examples.json
+2025-04-29 00:05:42,069 - ConceptNetTrainer - INFO - Saved 3 test examples to conceptnet_training_output\examples\test_examples.json
+2025-04-29 00:05:42,071 - ConceptNetTrainer - INFO - Saved 5 grounding examples to conceptnet_training_output\examples\grounding_examples.json
+2025-04-29 00:05:42,072 - ConceptNetTrainer - INFO - Saved 5 integration examples to conceptnet_training_output\examples\integration_examples.json
+2025-04-29 00:05:42,073 - ConceptNetTrainer - INFO - Dataset preparation complete: 30 total examples
+2025-04-29 00:05:42,073 - ConceptNetTrainer - INFO - === Phase 1: Symbol Grounding ===
+2025-04-29 00:05:42,073 - ConceptNetTrainer - INFO - Training symbol grounding for 2 epochs
+2025-04-29 00:05:42,074 - ConceptNetTrainer - INFO - Epoch 1, Batch 1/1: Accuracy: 1.0000, Confidence: 0.8000
+2025-04-29 00:05:42,074 - ConceptNetTrainer - INFO - Epoch 1: Accuracy = 1.0000, Confidence = 0.8000
+2025-04-29 00:05:42,074 - ConceptNetTrainer - INFO - Epoch 2, Batch 1/1: Accuracy: 1.0000, Confidence: 0.8000
+2025-04-29 00:05:42,075 - ConceptNetTrainer - INFO - Epoch 2: Accuracy = 1.0000, Confidence = 0.8000
+2025-04-29 00:05:42,076 - ConceptNetTrainer - INFO - Saved training state to conceptnet_training_output\checkpoint_after_grounding.json
+2025-04-29 00:05:42,076 - ConceptNetTrainer - INFO - === Phase 2: Relation Extraction ===
+2025-04-29 00:05:42,077 - ConceptNetTrainer - INFO - Training relation extraction for 2 epochs
+2025-04-29 00:05:42,083 - ConceptNetTrainer - INFO - Epoch 1, Batch 1/1: Accuracy: 0.7143, Loss: 0.2429
+2025-04-29 00:05:42,085 - ConceptNetTrainer - INFO - Validation: Accuracy: 1.0000, Loss: 0.2000
+2025-04-29 00:05:42,085 - ConceptNetTrainer - INFO - Epoch 1 complete: Accuracy: 0.7143, Loss: 0.2429, Examples: 14
+2025-04-29 00:05:42,087 - ConceptNetTrainer - INFO - Epoch 2, Batch 1/1: Accuracy: 0.7143, Loss: 0.2429
+2025-04-29 00:05:42,087 - ConceptNetTrainer - INFO - Validation: Accuracy: 1.0000, Loss: 0.2000
+2025-04-29 00:05:42,088 - ConceptNetTrainer - INFO - Epoch 2 complete: Accuracy: 0.7143, Loss: 0.2429, Examples: 14
+2025-04-29 00:05:42,089 - ConceptNetTrainer - INFO - Saved training state to conceptnet_training_output\checkpoint_after_relation.json
+2025-04-29 00:05:42,089 - ConceptNetTrainer - INFO - === Phase 3: Knowledge Abstraction ===
+2025-04-29 00:05:42,090 - ConceptNetTrainer - INFO - Training knowledge abstraction for 1 epochs
+2025-04-29 00:05:42,090 - ConceptNetTrainer - INFO - Knowledge abstraction - Epoch 1/1
+2025-04-29 00:05:42,091 - ConceptNetTrainer - INFO - Epoch 1: Added 1 abstractions, Validation rate: 1.0000, Duration: 0.00s
+2025-04-29 00:05:42,091 - ConceptNetTrainer - INFO - Saved training state to conceptnet_training_output\checkpoint_after_abstraction.json
+2025-04-29 00:05:42,092 - ConceptNetTrainer - INFO - === Phase 4: Integration Training ===
+2025-04-29 00:05:42,092 - ConceptNetTrainer - INFO - Training integration for 0 epochs
+2025-04-29 00:05:42,093 - ConceptNetTrainer - INFO - Saved training state to conceptnet_training_output\checkpoint_after_integration.json
+2025-04-29 00:05:42,093 - ConceptNetTrainer - INFO - === Phase 5: Evaluation ===
+2025-04-29 00:05:42,094 - ConceptNetTrainer - INFO - Evaluating ConceptNet training...
+2025-04-29 00:05:42,094 - ConceptNetTrainer - INFO - Evaluation complete:
+2025-04-29 00:05:42,095 - ConceptNetTrainer - INFO - Overall accuracy: 1.0000
+2025-04-29 00:05:42,095 - ConceptNetTrainer - INFO - Relation Extraction accuracy: 1.0000
+2025-04-29 00:05:42,096 - ConceptNetTrainer - INFO - Saved evaluation metrics to conceptnet_training_output\evaluation_metrics.json
+2025-04-29 00:05:42,096 - ConceptNetTrainer - INFO - === Phase 6: Visualizations ===
+2025-04-29 00:05:42,098 - ConceptNetTrainer - INFO - Generated 0 visualization files in conceptnet_training_output\visualizations
+2025-04-29 00:05:42,100 - ConceptNetTrainer - INFO - Saved training state to conceptnet_training_output\final_training_state.json
+2025-04-29 00:05:57,488 - ConceptNetTrainer - INFO - ConceptNet training system initialized
+2025-04-29 00:05:57,490 - ConceptNetTrainer - INFO - Starting full ConceptNet training pipeline...
+2025-04-29 00:05:57,491 - ConceptNetTrainer - INFO - Integrating ConceptNet knowledge to symbolic KB...
+2025-04-29 00:05:57,513 - ConceptNetTrainer - INFO - Added 16 ConceptNet facts to symbolic KB
+2025-04-29 00:05:57,514 - ConceptNetTrainer - INFO - Integrating ConceptNet knowledge to vector symbolic KB...
+2025-04-29 00:05:57,519 - ConceptNetTrainer - INFO - Added 16 ConceptNet facts to vector symbolic KB
+2025-04-29 00:05:57,519 - ConceptNetTrainer - INFO - Integrated 16 symbolic facts and 16 vector facts
+2025-04-29 00:05:57,519 - ConceptNetTrainer - INFO - Preparing datasets for training...
+2025-04-29 00:05:57,520 - ConceptNetTrainer - INFO - Creating examples from ConceptNet file: training\datasets\conceptnet\sample_data.csv
+2025-04-29 00:05:57,522 - ConceptNetTrainer - INFO - Saved 14 train examples to conceptnet_training_output\examples\train_examples.json
+2025-04-29 00:05:57,522 - ConceptNetTrainer - INFO - Saved 3 val examples to conceptnet_training_output\examples\val_examples.json
+2025-04-29 00:05:57,523 - ConceptNetTrainer - INFO - Saved 3 test examples to conceptnet_training_output\examples\test_examples.json
+2025-04-29 00:05:57,524 - ConceptNetTrainer - INFO - Saved 5 grounding examples to conceptnet_training_output\examples\grounding_examples.json
+2025-04-29 00:05:57,525 - ConceptNetTrainer - INFO - Saved 5 integration examples to conceptnet_training_output\examples\integration_examples.json
+2025-04-29 00:05:57,525 - ConceptNetTrainer - INFO - Dataset preparation complete: 30 total examples
+2025-04-29 00:05:57,525 - ConceptNetTrainer - INFO - === Phase 1: Symbol Grounding ===
+2025-04-29 00:05:57,526 - ConceptNetTrainer - INFO - Training symbol grounding for 2 epochs
+2025-04-29 00:05:57,526 - ConceptNetTrainer - INFO - Epoch 1, Batch 1/1: Accuracy: 1.0000, Confidence: 0.8000
+2025-04-29 00:05:57,527 - ConceptNetTrainer - INFO - Epoch 1: Accuracy = 1.0000, Confidence = 0.8000
+2025-04-29 00:05:57,527 - ConceptNetTrainer - INFO - Epoch 2, Batch 1/1: Accuracy: 1.0000, Confidence: 0.8000
+2025-04-29 00:05:57,527 - ConceptNetTrainer - INFO - Epoch 2: Accuracy = 1.0000, Confidence = 0.8000
+2025-04-29 00:05:57,528 - ConceptNetTrainer - INFO - Saved training state to conceptnet_training_output\checkpoint_after_grounding.json
+2025-04-29 00:05:57,528 - ConceptNetTrainer - INFO - === Phase 2: Relation Extraction ===
+2025-04-29 00:05:57,529 - ConceptNetTrainer - INFO - Training relation extraction for 2 epochs
+2025-04-29 00:05:57,535 - ConceptNetTrainer - INFO - Epoch 1, Batch 1/1: Accuracy: 0.7143, Loss: 0.2429
+2025-04-29 00:05:57,537 - ConceptNetTrainer - INFO - Validation: Accuracy: 1.0000, Loss: 0.2000
+2025-04-29 00:05:57,537 - ConceptNetTrainer - INFO - Epoch 1 complete: Accuracy: 0.7143, Loss: 0.2429, Examples: 14
+2025-04-29 00:05:57,538 - ConceptNetTrainer - INFO - Epoch 2, Batch 1/1: Accuracy: 0.7143, Loss: 0.2429
+2025-04-29 00:05:57,539 - ConceptNetTrainer - INFO - Validation: Accuracy: 1.0000, Loss: 0.2000
+2025-04-29 00:05:57,539 - ConceptNetTrainer - INFO - Epoch 2 complete: Accuracy: 0.7143, Loss: 0.2429, Examples: 14
+2025-04-29 00:05:57,540 - ConceptNetTrainer - INFO - Saved training state to conceptnet_training_output\checkpoint_after_relation.json
+2025-04-29 00:05:57,541 - ConceptNetTrainer - INFO - === Phase 3: Knowledge Abstraction ===
+2025-04-29 00:05:57,541 - ConceptNetTrainer - INFO - Training knowledge abstraction for 1 epochs
+2025-04-29 00:05:57,541 - ConceptNetTrainer - INFO - Knowledge abstraction - Epoch 1/1
+2025-04-29 00:05:57,542 - ConceptNetTrainer - INFO - Epoch 1: Added 1 abstractions, Validation rate: 1.0000, Duration: 0.00s
+2025-04-29 00:05:57,543 - ConceptNetTrainer - INFO - Saved training state to conceptnet_training_output\checkpoint_after_abstraction.json
+2025-04-29 00:05:57,543 - ConceptNetTrainer - INFO - === Phase 4: Integration Training ===
+2025-04-29 00:05:57,543 - ConceptNetTrainer - INFO - Training integration for 1 epochs
+2025-04-29 00:05:57,544 - ConceptNetTrainer - INFO - Integration - Epoch 1/1
+2025-04-29 00:11:38,009 - ConceptNetTrainer - INFO - ConceptNet training system initialized
+2025-04-29 00:11:38,013 - ConceptNetTrainer - INFO - Starting full ConceptNet training pipeline...
+2025-04-29 00:11:38,013 - ConceptNetTrainer - INFO - Integrating ConceptNet knowledge to symbolic KB...
+2025-04-29 00:11:38,037 - ConceptNetTrainer - INFO - Added 16 ConceptNet facts to symbolic KB
+2025-04-29 00:11:38,037 - ConceptNetTrainer - INFO - Integrating ConceptNet knowledge to vector symbolic KB...
+2025-04-29 00:11:38,044 - ConceptNetTrainer - INFO - Added 16 ConceptNet facts to vector symbolic KB
+2025-04-29 00:11:38,044 - ConceptNetTrainer - INFO - Integrated 16 symbolic facts and 16 vector facts
+2025-04-29 00:11:38,044 - ConceptNetTrainer - INFO - Preparing datasets for training...
+2025-04-29 00:11:38,045 - ConceptNetTrainer - INFO - Creating examples from ConceptNet file: training\datasets\conceptnet\sample_data.csv
+2025-04-29 00:11:38,047 - ConceptNetTrainer - INFO - Saved 14 train examples to conceptnet_training_output\examples\train_examples.json
+2025-04-29 00:11:38,048 - ConceptNetTrainer - INFO - Saved 3 val examples to conceptnet_training_output\examples\val_examples.json
+2025-04-29 00:11:38,050 - ConceptNetTrainer - INFO - Saved 3 test examples to conceptnet_training_output\examples\test_examples.json
+2025-04-29 00:11:38,053 - ConceptNetTrainer - INFO - Saved 5 grounding examples to conceptnet_training_output\examples\grounding_examples.json
+2025-04-29 00:11:38,054 - ConceptNetTrainer - INFO - Saved 5 integration examples to conceptnet_training_output\examples\integration_examples.json
+2025-04-29 00:11:38,054 - ConceptNetTrainer - INFO - Dataset preparation complete: 30 total examples
+2025-04-29 00:11:38,055 - ConceptNetTrainer - INFO - === Phase 1: Symbol Grounding ===
+2025-04-29 00:11:38,055 - ConceptNetTrainer - INFO - Training symbol grounding for 2 epochs
+2025-04-29 00:11:38,056 - ConceptNetTrainer - INFO - Epoch 1, Batch 1/1: Accuracy: 1.0000, Confidence: 0.8000
+2025-04-29 00:11:38,056 - ConceptNetTrainer - INFO - Epoch 1: Accuracy = 1.0000, Confidence = 0.8000
+2025-04-29 00:11:38,056 - ConceptNetTrainer - INFO - Epoch 2, Batch 1/1: Accuracy: 1.0000, Confidence: 0.8000
+2025-04-29 00:11:38,057 - ConceptNetTrainer - INFO - Epoch 2: Accuracy = 1.0000, Confidence = 0.8000
+2025-04-29 00:11:38,057 - ConceptNetTrainer - INFO - Saved training state to conceptnet_training_output\checkpoint_after_grounding.json
+2025-04-29 00:11:38,058 - ConceptNetTrainer - INFO - === Phase 2: Relation Extraction ===
+2025-04-29 00:11:38,058 - ConceptNetTrainer - INFO - Training relation extraction for 2 epochs
+2025-04-29 00:11:38,065 - ConceptNetTrainer - INFO - Epoch 1, Batch 1/1: Accuracy: 0.9286, Loss: 0.2429
+2025-04-29 00:11:38,066 - ConceptNetTrainer - INFO - Validation: Accuracy: 1.0000, Loss: 0.2000
+2025-04-29 00:11:38,066 - ConceptNetTrainer - INFO - Epoch 1 complete: Accuracy: 0.9286, Loss: 0.2429, Examples: 14
+2025-04-29 00:11:38,068 - ConceptNetTrainer - INFO - Epoch 2, Batch 1/1: Accuracy: 0.9286, Loss: 0.2429
+2025-04-29 00:11:38,069 - ConceptNetTrainer - INFO - Validation: Accuracy: 1.0000, Loss: 0.2000
+2025-04-29 00:11:38,069 - ConceptNetTrainer - INFO - Epoch 2 complete: Accuracy: 0.9286, Loss: 0.2429, Examples: 14
+2025-04-29 00:11:38,070 - ConceptNetTrainer - INFO - Saved training state to conceptnet_training_output\checkpoint_after_relation.json
+2025-04-29 00:11:38,070 - ConceptNetTrainer - INFO - === Phase 3: Knowledge Abstraction ===
+2025-04-29 00:11:38,071 - ConceptNetTrainer - INFO - Training knowledge abstraction for 1 epochs
+2025-04-29 00:11:38,071 - ConceptNetTrainer - INFO - Knowledge abstraction - Epoch 1/1
+2025-04-29 00:11:38,072 - ConceptNetTrainer - INFO - Epoch 1: Added 1 abstractions, Validation rate: 1.0000, Duration: 0.00s
+2025-04-29 00:11:38,073 - ConceptNetTrainer - INFO - Saved training state to conceptnet_training_output\checkpoint_after_abstraction.json
+2025-04-29 00:11:38,073 - ConceptNetTrainer - INFO - === Phase 4: Integration Training ===
+2025-04-29 00:11:38,074 - ConceptNetTrainer - INFO - Training integration for 1 epochs
+2025-04-29 00:11:38,074 - ConceptNetTrainer - INFO - Integration - Epoch 1/1
+2025-04-29 00:12:30,520 - ConceptNetTrainer - INFO - ConceptNet training system initialized
+2025-04-29 00:12:30,525 - ConceptNetTrainer - INFO - Starting full ConceptNet training pipeline...
+2025-04-29 00:12:30,525 - ConceptNetTrainer - INFO - Integrating ConceptNet knowledge to symbolic KB...
+2025-04-29 00:12:30,554 - ConceptNetTrainer - INFO - Added 16 ConceptNet facts to symbolic KB
+2025-04-29 00:12:30,554 - ConceptNetTrainer - INFO - Integrating ConceptNet knowledge to vector symbolic KB...
+2025-04-29 00:12:30,560 - ConceptNetTrainer - INFO - Added 16 ConceptNet facts to vector symbolic KB
+2025-04-29 00:12:30,560 - ConceptNetTrainer - INFO - Integrated 16 symbolic facts and 16 vector facts
+2025-04-29 00:12:30,561 - ConceptNetTrainer - INFO - Preparing datasets for training...
+2025-04-29 00:12:30,561 - ConceptNetTrainer - INFO - Creating examples from ConceptNet file: training\datasets\conceptnet\sample_data.csv
+2025-04-29 00:12:30,565 - ConceptNetTrainer - INFO - Saved 14 train examples to conceptnet_training_output\examples\train_examples.json
+2025-04-29 00:12:30,566 - ConceptNetTrainer - INFO - Saved 3 val examples to conceptnet_training_output\examples\val_examples.json
+2025-04-29 00:12:30,567 - ConceptNetTrainer - INFO - Saved 3 test examples to conceptnet_training_output\examples\test_examples.json
+2025-04-29 00:12:30,569 - ConceptNetTrainer - INFO - Saved 5 grounding examples to conceptnet_training_output\examples\grounding_examples.json
+2025-04-29 00:12:30,570 - ConceptNetTrainer - INFO - Saved 5 integration examples to conceptnet_training_output\examples\integration_examples.json
+2025-04-29 00:12:30,570 - ConceptNetTrainer - INFO - Dataset preparation complete: 30 total examples
+2025-04-29 00:12:30,571 - ConceptNetTrainer - INFO - === Phase 1: Symbol Grounding ===
+2025-04-29 00:12:30,571 - ConceptNetTrainer - INFO - Training symbol grounding for 2 epochs
+2025-04-29 00:12:30,571 - ConceptNetTrainer - INFO - Epoch 1, Batch 1/1: Accuracy: 1.0000, Confidence: 0.8000
+2025-04-29 00:12:30,572 - ConceptNetTrainer - INFO - Epoch 1: Accuracy = 1.0000, Confidence = 0.8000
+2025-04-29 00:12:30,572 - ConceptNetTrainer - INFO - Epoch 2, Batch 1/1: Accuracy: 1.0000, Confidence: 0.8000
+2025-04-29 00:12:30,573 - ConceptNetTrainer - INFO - Epoch 2: Accuracy = 1.0000, Confidence = 0.8000
+2025-04-29 00:12:30,574 - ConceptNetTrainer - INFO - Saved training state to conceptnet_training_output\checkpoint_after_grounding.json
+2025-04-29 00:12:30,574 - ConceptNetTrainer - INFO - === Phase 2: Relation Extraction ===
+2025-04-29 00:12:30,574 - ConceptNetTrainer - INFO - Training relation extraction for 2 epochs
+2025-04-29 00:12:30,582 - ConceptNetTrainer - INFO - Epoch 1, Batch 1/1: Accuracy: 0.9286, Loss: 0.2429
+2025-04-29 00:12:30,583 - ConceptNetTrainer - INFO - Validation: Accuracy: 0.6667, Loss: 0.2000
+2025-04-29 00:12:30,584 - ConceptNetTrainer - INFO - Epoch 1 complete: Accuracy: 0.9286, Loss: 0.2429, Examples: 14
+2025-04-29 00:12:30,586 - ConceptNetTrainer - INFO - Epoch 2, Batch 1/1: Accuracy: 0.9286, Loss: 0.2429
+2025-04-29 00:12:30,587 - ConceptNetTrainer - INFO - Validation: Accuracy: 0.6667, Loss: 0.2000
+2025-04-29 00:12:30,587 - ConceptNetTrainer - INFO - Epoch 2 complete: Accuracy: 0.9286, Loss: 0.2429, Examples: 14
+2025-04-29 00:12:30,589 - ConceptNetTrainer - INFO - Saved training state to conceptnet_training_output\checkpoint_after_relation.json
+2025-04-29 00:12:30,589 - ConceptNetTrainer - INFO - === Phase 3: Knowledge Abstraction ===
+2025-04-29 00:12:30,589 - ConceptNetTrainer - INFO - Training knowledge abstraction for 1 epochs
+2025-04-29 00:12:30,590 - ConceptNetTrainer - INFO - Knowledge abstraction - Epoch 1/1
+2025-04-29 00:12:30,591 - ConceptNetTrainer - INFO - Epoch 1: Added 1 abstractions, Validation rate: 1.0000, Duration: 0.00s
+2025-04-29 00:12:30,592 - ConceptNetTrainer - INFO - Saved training state to conceptnet_training_output\checkpoint_after_abstraction.json
+2025-04-29 00:12:30,593 - ConceptNetTrainer - INFO - === Phase 4: Integration Training ===
+2025-04-29 00:12:30,593 - ConceptNetTrainer - INFO - Training integration for 1 epochs
+2025-04-29 00:12:30,594 - ConceptNetTrainer - INFO - Integration - Epoch 1/1
+2025-04-29 00:12:30,601 - ConceptNetTrainer - INFO - Epoch 1: Success rate: 0.0000, Avg score: 0.0000, Duration: 0.01s
+2025-04-29 00:12:30,603 - ConceptNetTrainer - INFO - Saved training state to conceptnet_training_output\checkpoint_after_integration.json
+2025-04-29 00:12:30,603 - ConceptNetTrainer - INFO - === Phase 5: Evaluation ===
+2025-04-29 00:12:30,604 - ConceptNetTrainer - INFO - Evaluating ConceptNet training...
+2025-04-29 00:12:30,604 - ConceptNetTrainer - INFO - Evaluation complete:
+2025-04-29 00:12:30,604 - ConceptNetTrainer - INFO - Overall accuracy: 1.0000
+2025-04-29 00:12:30,605 - ConceptNetTrainer - INFO - Relation Extraction accuracy: 1.0000
+2025-04-29 00:12:30,606 - ConceptNetTrainer - INFO - Saved evaluation metrics to conceptnet_training_output\evaluation_metrics.json
+2025-04-29 00:12:30,606 - ConceptNetTrainer - INFO - === Phase 6: Visualizations ===
+2025-04-29 00:12:30,607 - ConceptNetTrainer - INFO - Generated 0 visualization files in conceptnet_training_output\visualizations
+2025-04-29 00:12:30,608 - ConceptNetTrainer - INFO - Saved training state to conceptnet_training_output\final_training_state.json

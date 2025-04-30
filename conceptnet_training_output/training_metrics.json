@@ -1,0 +1,6109 @@
+{
+  "relation_prediction": [
+    {
+      "accuracy": 1.0,
+      "loss": 0.0,
+      "per_relation": {
+        "IsA": {
+          "accuracy": 1.0,
+          "count": 113
+        },
+        "AtLocation": {
+          "accuracy": 1.0,
+          "count": 98
+        },
+        "CausesDesire": {
+          "accuracy": 1.0,
+          "count": 102
+        },
+        "Causes": {
+          "accuracy": 1.0,
+          "count": 121
+        },
+        "HasProperty": {
+          "accuracy": 1.0,
+          "count": 118
+        },
+        "UsedFor": {
+          "accuracy": 1.0,
+          "count": 109
+        },
+        "HasA": {
+          "accuracy": 1.0,
+          "count": 103
+        },
+        "CapableOf": {
+          "accuracy": 1.0,
+          "count": 117
+        },
+        "PartOf": {
+          "accuracy": 1.0,
+          "count": 119
+        }
+      }
+    },
+    {
+      "accuracy": 1.0,
+      "loss": 0.0,
+      "per_relation": {
+        "CapableOf": {
+          "accuracy": 1.0,
+          "count": 117
+        },
+        "PartOf": {
+          "accuracy": 1.0,
+          "count": 119
+        },
+        "HasProperty": {
+          "accuracy": 1.0,
+          "count": 118
+        },
+        "IsA": {
+          "accuracy": 1.0,
+          "count": 113
+        },
+        "CausesDesire": {
+          "accuracy": 1.0,
+          "count": 102
+        },
+        "HasA": {
+          "accuracy": 1.0,
+          "count": 103
+        },
+        "UsedFor": {
+          "accuracy": 1.0,
+          "count": 109
+        },
+        "Causes": {
+          "accuracy": 1.0,
+          "count": 121
+        },
+        "AtLocation": {
+          "accuracy": 1.0,
+          "count": 98
+        }
+      }
+    }
+  ],
+  "concept_embedding": [],
+  "relation_types": {
+    "CapableOf": [
+      {
+        "relation": "CapableOf",
+        "subject": "house",
+        "object": "teach",
+        "weight": 0.125
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "child",
+        "object": "run",
+        "weight": 0.515
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "child",
+        "object": "help",
+        "weight": 0.625
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "computer",
+        "object": "jump",
+        "weight": 0.22499999999999998
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "student",
+        "object": "learn",
+        "weight": 0.4125
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "person",
+        "object": "move",
+        "weight": 0.09999999999999998
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "teacher",
+        "object": "work",
+        "weight": 0.4225
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "house",
+        "object": "help",
+        "weight": 0.45999999999999996
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "flower",
+        "object": "learn",
+        "weight": 0.39749999999999996
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "person",
+        "object": "help",
+        "weight": 0.5525
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "tree",
+        "object": "grow",
+        "weight": 0.12
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "person",
+        "object": "eat",
+        "weight": 0.745
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "flower",
+        "object": "fly",
+        "weight": 0.67
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "cat",
+        "object": "grow",
+        "weight": 0.8825000000000001
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "student",
+        "object": "help",
+        "weight": 0.245
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "person",
+        "object": "jump",
+        "weight": 0.017500000000000016
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "flower",
+        "object": "work",
+        "weight": 0.6875
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "bird",
+        "object": "run",
+        "weight": 0.62
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "child",
+        "object": "talk",
+        "weight": 0.55
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "person",
+        "object": "think",
+        "weight": 0.7875000000000001
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "person",
+        "object": "sleep",
+        "weight": 0.4075
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "book",
+        "object": "swim",
+        "weight": 0.5625
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "bird",
+        "object": "sleep",
+        "weight": 0.9950000000000001
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "adult",
+        "object": "run",
+        "weight": 0.11499999999999999
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "car",
+        "object": "swim",
+        "weight": 0.575
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "car",
+        "object": "think",
+        "weight": 0.07
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "computer",
+        "object": "think",
+        "weight": 0.265
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "child",
+        "object": "teach",
+        "weight": 0.8075000000000001
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "person",
+        "object": "eat",
+        "weight": 0.475
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "person",
+        "object": "learn",
+        "weight": 0.8325
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "flower",
+        "object": "talk",
+        "weight": 0.27
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "child",
+        "object": "think",
+        "weight": 0.09499999999999997
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "bird",
+        "object": "move",
+        "weight": 0.7725
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "computer",
+        "object": "swim",
+        "weight": 0.04999999999999999
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "dog",
+        "object": "sleep",
+        "weight": 0.48
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "fish",
+        "object": "fly",
+        "weight": 0.5575
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "child",
+        "object": "sleep",
+        "weight": 0.10499999999999998
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "child",
+        "object": "help",
+        "weight": 0.8
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "house",
+        "object": "think",
+        "weight": 0.3125
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "fish",
+        "object": "run",
+        "weight": 0.09999999999999998
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "house",
+        "object": "grow",
+        "weight": 0.535
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "house",
+        "object": "grow",
+        "weight": 0.3425
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "fish",
+        "object": "sleep",
+        "weight": 0.5375
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "computer",
+        "object": "fly",
+        "weight": 0.9575
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "computer",
+        "object": "run",
+        "weight": 0.605
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "teacher",
+        "object": "help",
+        "weight": 0.9850000000000001
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "computer",
+        "object": "fly",
+        "weight": 0.95
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "teacher",
+        "object": "grow",
+        "weight": 0.7
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "person",
+        "object": "think",
+        "weight": 0.5825
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "adult",
+        "object": "work",
+        "weight": 0.8825000000000001
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "house",
+        "object": "run",
+        "weight": 0.1275
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "teacher",
+        "object": "move",
+        "weight": 0.7025
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "car",
+        "object": "teach",
+        "weight": 0.635
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "book",
+        "object": "move",
+        "weight": 0.8025
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "child",
+        "object": "swim",
+        "weight": 0.47750000000000004
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "house",
+        "object": "swim",
+        "weight": 0.9575
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "student",
+        "object": "move",
+        "weight": 0.8025
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "fish",
+        "object": "work",
+        "weight": 0.03999999999999998
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "child",
+        "object": "talk",
+        "weight": 0.9025000000000001
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "car",
+        "object": "think",
+        "weight": 0.525
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "bird",
+        "object": "run",
+        "weight": 0.8049999999999999
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "fish",
+        "object": "teach",
+        "weight": 0.0
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "student",
+        "object": "run",
+        "weight": 0.9475
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "dog",
+        "object": "sleep",
+        "weight": 0.22249999999999998
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "book",
+        "object": "think",
+        "weight": 0.044999999999999984
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "dog",
+        "object": "talk",
+        "weight": 0.645
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "flower",
+        "object": "help",
+        "weight": 0.1275
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "adult",
+        "object": "fly",
+        "weight": 0.21250000000000002
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "cat",
+        "object": "help",
+        "weight": 0.8
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "computer",
+        "object": "eat",
+        "weight": 0.1375
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "tree",
+        "object": "fly",
+        "weight": 0.7475
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "house",
+        "object": "swim",
+        "weight": 0.265
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "tree",
+        "object": "grow",
+        "weight": 0.012500000000000011
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "adult",
+        "object": "move",
+        "weight": 0.46499999999999997
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "book",
+        "object": "jump",
+        "weight": 0.9750000000000001
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "adult",
+        "object": "move",
+        "weight": 0.355
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "teacher",
+        "object": "move",
+        "weight": 0.12
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "student",
+        "object": "learn",
+        "weight": 0.9099999999999999
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "bird",
+        "object": "grow",
+        "weight": 0.8625
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "car",
+        "object": "grow",
+        "weight": 0.14
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "house",
+        "object": "teach",
+        "weight": 0.16499999999999998
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "fish",
+        "object": "swim",
+        "weight": 0.5975
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "student",
+        "object": "think",
+        "weight": 0.3175
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "car",
+        "object": "work",
+        "weight": 0.16499999999999998
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "child",
+        "object": "fly",
+        "weight": 0.845
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "car",
+        "object": "jump",
+        "weight": 0.195
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "tree",
+        "object": "swim",
+        "weight": 0.017500000000000016
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "dog",
+        "object": "eat",
+        "weight": 0.3075
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "computer",
+        "object": "learn",
+        "weight": 0.3025
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "car",
+        "object": "run",
+        "weight": 0.9750000000000001
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "person",
+        "object": "eat",
+        "weight": 0.55
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "cat",
+        "object": "talk",
+        "weight": 0.38249999999999995
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "adult",
+        "object": "grow",
+        "weight": 0.5125
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "computer",
+        "object": "eat",
+        "weight": 0.57
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "dog",
+        "object": "swim",
+        "weight": 0.15500000000000003
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "adult",
+        "object": "jump",
+        "weight": 0.07
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "child",
+        "object": "eat",
+        "weight": 0.175
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "fish",
+        "object": "sleep",
+        "weight": 0.25249999999999995
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "tree",
+        "object": "fly",
+        "weight": 0.525
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "tree",
+        "object": "learn",
+        "weight": 0.8625
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "bird",
+        "object": "move",
+        "weight": 0.8374999999999999
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "bird",
+        "object": "talk",
+        "weight": 0.5425
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "child",
+        "object": "run",
+        "weight": 0.07750000000000001
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "tree",
+        "object": "run",
+        "weight": 0.49
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "book",
+        "object": "teach",
+        "weight": 0.7475
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "flower",
+        "object": "run",
+        "weight": 0.15999999999999998
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "computer",
+        "object": "eat",
+        "weight": 0.645
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "adult",
+        "object": "grow",
+        "weight": 0.8725
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "book",
+        "object": "fly",
+        "weight": 0.9824999999999999
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "tree",
+        "object": "eat",
+        "weight": 0.345
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "car",
+        "object": "help",
+        "weight": 0.21750000000000003
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "child",
+        "object": "grow",
+        "weight": 0.044999999999999984
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "flower",
+        "object": "help",
+        "weight": 0.46499999999999997
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "computer",
+        "object": "help",
+        "weight": 0.57
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "computer",
+        "object": "grow",
+        "weight": 0.22749999999999998
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "car",
+        "object": "run",
+        "weight": 0.21000000000000002
+      },
+      {
+        "relation": "CapableOf",
+        "subject": "flower",
+        "object": "think",
+        "weight": 0.9850000000000001
+      }
+    ],
+    "IsA": [
+      {
+        "relation": "IsA",
+        "subject": "student",
+        "object": "tool",
+        "weight": 0.15250000000000002
+      },
+      {
+        "relation": "IsA",
+        "subject": "book",
+        "object": "person",
+        "weight": 0.865
+      },
+      {
+        "relation": "IsA",
+        "subject": "flower",
+        "object": "object",
+        "weight": 0.645
+      },
+      {
+        "relation": "IsA",
+        "subject": "book",
+        "object": "furniture",
+        "weight": 0.875
+      },
+      {
+        "relation": "IsA",
+        "subject": "bird",
+        "object": "vehicle",
+        "weight": 0.37
+      },
+      {
+        "relation": "IsA",
+        "subject": "computer",
+        "object": "vehicle",
+        "weight": 0.5075
+      },
+      {
+        "relation": "IsA",
+        "subject": "teacher",
+        "object": "object",
+        "weight": 0.7549999999999999
+      },
+      {
+        "relation": "IsA",
+        "subject": "person",
+        "object": "drink",
+        "weight": 0.51
+      },
+      {
+        "relation": "IsA",
+        "subject": "cat",
+        "object": "vehicle",
+        "weight": 0.19
+      },
+      {
+        "relation": "IsA",
+        "subject": "teacher",
+        "object": "vehicle",
+        "weight": 0.875
+      },
+      {
+        "relation": "IsA",
+        "subject": "person",
+        "object": "animal",
+        "weight": 0.58
+      },
+      {
+        "relation": "IsA",
+        "subject": "person",
+        "object": "drink",
+        "weight": 0.8975
+      },
+      {
+        "relation": "IsA",
+        "subject": "cat",
+        "object": "building",
+        "weight": 0.3325
+      },
+      {
+        "relation": "IsA",
+        "subject": "teacher",
+        "object": "food",
+        "weight": 0.585
+      },
+      {
+        "relation": "IsA",
+        "subject": "fish",
+        "object": "building",
+        "weight": 0.5
+      },
+      {
+        "relation": "IsA",
+        "subject": "tree",
+        "object": "person",
+        "weight": 0.64
+      },
+      {
+        "relation": "IsA",
+        "subject": "house",
+        "object": "location",
+        "weight": 0.8474999999999999
+      },
+      {
+        "relation": "IsA",
+        "subject": "teacher",
+        "object": "vehicle",
+        "weight": 0.5175
+      },
+      {
+        "relation": "IsA",
+        "subject": "child",
+        "object": "animal",
+        "weight": 0.30500000000000005
+      },
+      {
+        "relation": "IsA",
+        "subject": "tree",
+        "object": "vehicle",
+        "weight": 0.655
+      },
+      {
+        "relation": "IsA",
+        "subject": "adult",
+        "object": "tool",
+        "weight": 0.69
+      },
+      {
+        "relation": "IsA",
+        "subject": "teacher",
+        "object": "location",
+        "weight": 0.47250000000000003
+      },
+      {
+        "relation": "IsA",
+        "subject": "cat",
+        "object": "vehicle",
+        "weight": 0.58
+      },
+      {
+        "relation": "IsA",
+        "subject": "person",
+        "object": "tool",
+        "weight": 0.027500000000000024
+      },
+      {
+        "relation": "IsA",
+        "subject": "child",
+        "object": "plant",
+        "weight": 0.6925
+      },
+      {
+        "relation": "IsA",
+        "subject": "car",
+        "object": "person",
+        "weight": 0.3425
+      },
+      {
+        "relation": "IsA",
+        "subject": "person",
+        "object": "tool",
+        "weight": 0.9550000000000001
+      },
+      {
+        "relation": "IsA",
+        "subject": "child",
+        "object": "furniture",
+        "weight": 0.9624999999999999
+      },
+      {
+        "relation": "IsA",
+        "subject": "house",
+        "object": "tool",
+        "weight": 0.645
+      },
+      {
+        "relation": "IsA",
+        "subject": "computer",
+        "object": "animal",
+        "weight": 0.10999999999999999
+      },
+      {
+        "relation": "IsA",
+        "subject": "teacher",
+        "object": "building",
+        "weight": 0.7475
+      },
+      {
+        "relation": "IsA",
+        "subject": "fish",
+        "object": "location",
+        "weight": 0.825
+      },
+      {
+        "relation": "IsA",
+        "subject": "teacher",
+        "object": "person",
+        "weight": 0.3025
+      },
+      {
+        "relation": "IsA",
+        "subject": "person",
+        "object": "drink",
+        "weight": 0.6875
+      },
+      {
+        "relation": "IsA",
+        "subject": "person",
+        "object": "vehicle",
+        "weight": 0.33499999999999996
+      },
+      {
+        "relation": "IsA",
+        "subject": "car",
+        "object": "drink",
+        "weight": 0.15999999999999998
+      },
+      {
+        "relation": "IsA",
+        "subject": "adult",
+        "object": "person",
+        "weight": 0.9075
+      },
+      {
+        "relation": "IsA",
+        "subject": "student",
+        "object": "building",
+        "weight": 0.545
+      },
+      {
+        "relation": "IsA",
+        "subject": "computer",
+        "object": "food",
+        "weight": 0.3425
+      },
+      {
+        "relation": "IsA",
+        "subject": "tree",
+        "object": "food",
+        "weight": 0.8200000000000001
+      },
+      {
+        "relation": "IsA",
+        "subject": "fish",
+        "object": "animal",
+        "weight": 0.03249999999999997
+      },
+      {
+        "relation": "IsA",
+        "subject": "computer",
+        "object": "vehicle",
+        "weight": 0.59
+      },
+      {
+        "relation": "IsA",
+        "subject": "child",
+        "object": "drink",
+        "weight": 0.6525
+      },
+      {
+        "relation": "IsA",
+        "subject": "bird",
+        "object": "building",
+        "weight": 0.007500000000000007
+      },
+      {
+        "relation": "IsA",
+        "subject": "adult",
+        "object": "plant",
+        "weight": 0.10999999999999999
+      },
+      {
+        "relation": "IsA",
+        "subject": "house",
+        "object": "person",
+        "weight": 0.31999999999999995
+      },
+      {
+        "relation": "IsA",
+        "subject": "flower",
+        "object": "drink",
+        "weight": 0.30500000000000005
+      },
+      {
+        "relation": "IsA",
+        "subject": "child",
+        "object": "building",
+        "weight": 0.7225
+      },
+      {
+        "relation": "IsA",
+        "subject": "flower",
+        "object": "person",
+        "weight": 0.355
+      },
+      {
+        "relation": "IsA",
+        "subject": "house",
+        "object": "animal",
+        "weight": 0.0675
+      },
+      {
+        "relation": "IsA",
+        "subject": "car",
+        "object": "food",
+        "weight": 0.9724999999999999
+      },
+      {
+        "relation": "IsA",
+        "subject": "teacher",
+        "object": "furniture",
+        "weight": 0.4075
+      },
+      {
+        "relation": "IsA",
+        "subject": "person",
+        "object": "person",
+        "weight": 0.4175
+      },
+      {
+        "relation": "IsA",
+        "subject": "student",
+        "object": "location",
+        "weight": 0.7975000000000001
+      },
+      {
+        "relation": "IsA",
+        "subject": "flower",
+        "object": "drink",
+        "weight": 0.9575
+      },
+      {
+        "relation": "IsA",
+        "subject": "cat",
+        "object": "location",
+        "weight": 0.3325
+      },
+      {
+        "relation": "IsA",
+        "subject": "tree",
+        "object": "food",
+        "weight": 0.9650000000000001
+      },
+      {
+        "relation": "IsA",
+        "subject": "student",
+        "object": "animal",
+        "weight": 0.475
+      },
+      {
+        "relation": "IsA",
+        "subject": "computer",
+        "object": "location",
+        "weight": 0.1375
+      },
+      {
+        "relation": "IsA",
+        "subject": "car",
+        "object": "plant",
+        "weight": 0.09000000000000002
+      },
+      {
+        "relation": "IsA",
+        "subject": "student",
+        "object": "animal",
+        "weight": 0.15250000000000002
+      },
+      {
+        "relation": "IsA",
+        "subject": "tree",
+        "object": "furniture",
+        "weight": 0.675
+      },
+      {
+        "relation": "IsA",
+        "subject": "teacher",
+        "object": "tool",
+        "weight": 0.1325
+      },
+      {
+        "relation": "IsA",
+        "subject": "teacher",
+        "object": "plant",
+        "weight": 0.36250000000000004
+      },
+      {
+        "relation": "IsA",
+        "subject": "car",
+        "object": "tool",
+        "weight": 0.9275
+      },
+      {
+        "relation": "IsA",
+        "subject": "car",
+        "object": "furniture",
+        "weight": 0.15000000000000002
+      },
+      {
+        "relation": "IsA",
+        "subject": "car",
+        "object": "furniture",
+        "weight": 0.48750000000000004
+      },
+      {
+        "relation": "IsA",
+        "subject": "house",
+        "object": "object",
+        "weight": 0.9325000000000001
+      },
+      {
+        "relation": "IsA",
+        "subject": "adult",
+        "object": "location",
+        "weight": 0.5175
+      },
+      {
+        "relation": "IsA",
+        "subject": "child",
+        "object": "tool",
+        "weight": 0.5
+      },
+      {
+        "relation": "IsA",
+        "subject": "book",
+        "object": "object",
+        "weight": 0.6525
+      },
+      {
+        "relation": "IsA",
+        "subject": "book",
+        "object": "building",
+        "weight": 0.665
+      },
+      {
+        "relation": "IsA",
+        "subject": "child",
+        "object": "food",
+        "weight": 0.7725
+      },
+      {
+        "relation": "IsA",
+        "subject": "adult",
+        "object": "food",
+        "weight": 0.42000000000000004
+      },
+      {
+        "relation": "IsA",
+        "subject": "teacher",
+        "object": "furniture",
+        "weight": 0.31999999999999995
+      },
+      {
+        "relation": "IsA",
+        "subject": "computer",
+        "object": "building",
+        "weight": 0.09000000000000002
+      },
+      {
+        "relation": "IsA",
+        "subject": "flower",
+        "object": "animal",
+        "weight": 0.0050000000000000044
+      },
+      {
+        "relation": "IsA",
+        "subject": "book",
+        "object": "tool",
+        "weight": 0.6425
+      },
+      {
+        "relation": "IsA",
+        "subject": "adult",
+        "object": "food",
+        "weight": 0.355
+      },
+      {
+        "relation": "IsA",
+        "subject": "tree",
+        "object": "object",
+        "weight": 0.07500000000000001
+      },
+      {
+        "relation": "IsA",
+        "subject": "cat",
+        "object": "person",
+        "weight": 0.6975
+      },
+      {
+        "relation": "IsA",
+        "subject": "cat",
+        "object": "object",
+        "weight": 0.56
+      },
+      {
+        "relation": "IsA",
+        "subject": "fish",
+        "object": "tool",
+        "weight": 0.9550000000000001
+      },
+      {
+        "relation": "IsA",
+        "subject": "adult",
+        "object": "object",
+        "weight": 0.78
+      },
+      {
+        "relation": "IsA",
+        "subject": "student",
+        "object": "object",
+        "weight": 0.10999999999999999
+      },
+      {
+        "relation": "IsA",
+        "subject": "teacher",
+        "object": "plant",
+        "weight": 0.8225
+      },
+      {
+        "relation": "IsA",
+        "subject": "student",
+        "object": "animal",
+        "weight": 0.31000000000000005
+      },
+      {
+        "relation": "IsA",
+        "subject": "person",
+        "object": "furniture",
+        "weight": 0.26749999999999996
+      },
+      {
+        "relation": "IsA",
+        "subject": "cat",
+        "object": "building",
+        "weight": 0.9650000000000001
+      },
+      {
+        "relation": "IsA",
+        "subject": "student",
+        "object": "furniture",
+        "weight": 0.9299999999999999
+      },
+      {
+        "relation": "IsA",
+        "subject": "person",
+        "object": "vehicle",
+        "weight": 0.41500000000000004
+      },
+      {
+        "relation": "IsA",
+        "subject": "book",
+        "object": "vehicle",
+        "weight": 0.09999999999999998
+      },
+      {
+        "relation": "IsA",
+        "subject": "book",
+        "object": "location",
+        "weight": 0.69
+      },
+      {
+        "relation": "IsA",
+        "subject": "adult",
+        "object": "drink",
+        "weight": 0.31999999999999995
+      },
+      {
+        "relation": "IsA",
+        "subject": "student",
+        "object": "food",
+        "weight": 0.35250000000000004
+      },
+      {
+        "relation": "IsA",
+        "subject": "tree",
+        "object": "person",
+        "weight": 0.735
+      },
+      {
+        "relation": "IsA",
+        "subject": "dog",
+        "object": "furniture",
+        "weight": 0.4625
+      },
+      {
+        "relation": "IsA",
+        "subject": "fish",
+        "object": "vehicle",
+        "weight": 0.2425
+      },
+      {
+        "relation": "IsA",
+        "subject": "computer",
+        "object": "vehicle",
+        "weight": 0.2825
+      },
+      {
+        "relation": "IsA",
+        "subject": "person",
+        "object": "object",
+        "weight": 0.705
+      },
+      {
+        "relation": "IsA",
+        "subject": "house",
+        "object": "vehicle",
+        "weight": 0.545
+      },
+      {
+        "relation": "IsA",
+        "subject": "house",
+        "object": "person",
+        "weight": 0.32499999999999996
+      },
+      {
+        "relation": "IsA",
+        "subject": "adult",
+        "object": "building",
+        "weight": 0.36
+      },
+      {
+        "relation": "IsA",
+        "subject": "computer",
+        "object": "plant",
+        "weight": 0.74
+      },
+      {
+        "relation": "IsA",
+        "subject": "bird",
+        "object": "plant",
+        "weight": 0.12
+      },
+      {
+        "relation": "IsA",
+        "subject": "book",
+        "object": "vehicle",
+        "weight": 0.48750000000000004
+      },
+      {
+        "relation": "IsA",
+        "subject": "bird",
+        "object": "building",
+        "weight": 0.44499999999999995
+      },
+      {
+        "relation": "IsA",
+        "subject": "bird",
+        "object": "object",
+        "weight": 0.7975000000000001
+      },
+      {
+        "relation": "IsA",
+        "subject": "car",
+        "object": "building",
+        "weight": 0.027500000000000024
+      },
+      {
+        "relation": "IsA",
+        "subject": "bird",
+        "object": "tool",
+        "weight": 0.655
+      },
+      {
+        "relation": "IsA",
+        "subject": "flower",
+        "object": "object",
+        "weight": 0.29500000000000004
+      },
+      {
+        "relation": "IsA",
+        "subject": "bird",
+        "object": "location",
+        "weight": 0.1275
+      },
+      {
+        "relation": "IsA",
+        "subject": "dog",
+        "object": "food",
+        "weight": 0.925
+      }
+    ],
+    "Causes": [
+      {
+        "relation": "Causes",
+        "subject": "adult",
+        "object": "animal",
+        "weight": 0.67
+      },
+      {
+        "relation": "Causes",
+        "subject": "dog",
+        "object": "small",
+        "weight": 0.5125
+      },
+      {
+        "relation": "Causes",
+        "subject": "person",
+        "object": "location",
+        "weight": 0.515
+      },
+      {
+        "relation": "Causes",
+        "subject": "book",
+        "object": "cold",
+        "weight": 0.75
+      },
+      {
+        "relation": "Causes",
+        "subject": "book",
+        "object": "weak",
+        "weight": 0.40249999999999997
+      },
+      {
+        "relation": "Causes",
+        "subject": "computer",
+        "object": "cat",
+        "weight": 0.8625
+      },
+      {
+        "relation": "Causes",
+        "subject": "dog",
+        "object": "think",
+        "weight": 0.10749999999999998
+      },
+      {
+        "relation": "Causes",
+        "subject": "book",
+        "object": "strong",
+        "weight": 0.22499999999999998
+      },
+      {
+        "relation": "Causes",
+        "subject": "cat",
+        "object": "jump",
+        "weight": 0.9199999999999999
+      },
+      {
+        "relation": "Causes",
+        "subject": "adult",
+        "object": "think",
+        "weight": 0.7975000000000001
+      },
+      {
+        "relation": "Causes",
+        "subject": "book",
+        "object": "bird",
+        "weight": 0.32999999999999996
+      },
+      {
+        "relation": "Causes",
+        "subject": "student",
+        "object": "dog",
+        "weight": 0.9225000000000001
+      },
+      {
+        "relation": "Causes",
+        "subject": "computer",
+        "object": "run",
+        "weight": 0.605
+      },
+      {
+        "relation": "Causes",
+        "subject": "child",
+        "object": "happy",
+        "weight": 0.6125
+      },
+      {
+        "relation": "Causes",
+        "subject": "bird",
+        "object": "fish",
+        "weight": 0.625
+      },
+      {
+        "relation": "Causes",
+        "subject": "computer",
+        "object": "person",
+        "weight": 0.375
+      },
+      {
+        "relation": "Causes",
+        "subject": "adult",
+        "object": "help",
+        "weight": 0.65
+      },
+      {
+        "relation": "Causes",
+        "subject": "car",
+        "object": "fast",
+        "weight": 0.8400000000000001
+      },
+      {
+        "relation": "Causes",
+        "subject": "computer",
+        "object": "teacher",
+        "weight": 0.7125
+      },
+      {
+        "relation": "Causes",
+        "subject": "teacher",
+        "object": "blue",
+        "weight": 0.33499999999999996
+      },
+      {
+        "relation": "Causes",
+        "subject": "fish",
+        "object": "person",
+        "weight": 0.03749999999999998
+      },
+      {
+        "relation": "Causes",
+        "subject": "tree",
+        "object": "food",
+        "weight": 0.7075
+      },
+      {
+        "relation": "Causes",
+        "subject": "adult",
+        "object": "hot",
+        "weight": 0.6975
+      },
+      {
+        "relation": "Causes",
+        "subject": "person",
+        "object": "plant",
+        "weight": 0.125
+      },
+      {
+        "relation": "Causes",
+        "subject": "book",
+        "object": "run",
+        "weight": 0.525
+      },
+      {
+        "relation": "Causes",
+        "subject": "house",
+        "object": "vehicle",
+        "weight": 0.6925
+      },
+      {
+        "relation": "Causes",
+        "subject": "flower",
+        "object": "swim",
+        "weight": 0.07500000000000001
+      },
+      {
+        "relation": "Causes",
+        "subject": "car",
+        "object": "furniture",
+        "weight": 0.21500000000000002
+      },
+      {
+        "relation": "Causes",
+        "subject": "house",
+        "object": "red",
+        "weight": 0.11499999999999999
+      },
+      {
+        "relation": "Causes",
+        "subject": "person",
+        "object": "teacher",
+        "weight": 0.7375
+      },
+      {
+        "relation": "Causes",
+        "subject": "student",
+        "object": "blue",
+        "weight": 0.8674999999999999
+      },
+      {
+        "relation": "Causes",
+        "subject": "person",
+        "object": "student",
+        "weight": 0.044999999999999984
+      },
+      {
+        "relation": "Causes",
+        "subject": "car",
+        "object": "food",
+        "weight": 0.355
+      },
+      {
+        "relation": "Causes",
+        "subject": "person",
+        "object": "tool",
+        "weight": 0.34750000000000003
+      },
+      {
+        "relation": "Causes",
+        "subject": "fish",
+        "object": "fish",
+        "weight": 0.10499999999999998
+      },
+      {
+        "relation": "Causes",
+        "subject": "person",
+        "object": "food",
+        "weight": 0.6725
+      },
+      {
+        "relation": "Causes",
+        "subject": "dog",
+        "object": "fly",
+        "weight": 0.6
+      },
+      {
+        "relation": "Causes",
+        "subject": "student",
+        "object": "food",
+        "weight": 0.030000000000000027
+      },
+      {
+        "relation": "Causes",
+        "subject": "book",
+        "object": "student",
+        "weight": 0.62
+      },
+      {
+        "relation": "Causes",
+        "subject": "fish",
+        "object": "fast",
+        "weight": 0.9225000000000001
+      },
+      {
+        "relation": "Causes",
+        "subject": "bird",
+        "object": "fast",
+        "weight": 0.7275
+      },
+      {
+        "relation": "Causes",
+        "subject": "fish",
+        "object": "sleep",
+        "weight": 0.03249999999999997
+      },
+      {
+        "relation": "Causes",
+        "subject": "computer",
+        "object": "car",
+        "weight": 0.36750000000000005
+      },
+      {
+        "relation": "Causes",
+        "subject": "house",
+        "object": "flower",
+        "weight": 0.30000000000000004
+      },
+      {
+        "relation": "Causes",
+        "subject": "bird",
+        "object": "weak",
+        "weight": 0.007500000000000007
+      },
+      {
+        "relation": "Causes",
+        "subject": "book",
+        "object": "drink",
+        "weight": 0.63
+      },
+      {
+        "relation": "Causes",
+        "subject": "adult",
+        "object": "hot",
+        "weight": 0.9650000000000001
+      },
+      {
+        "relation": "Causes",
+        "subject": "adult",
+        "object": "book",
+        "weight": 0.515
+      },
+      {
+        "relation": "Causes",
+        "subject": "adult",
+        "object": "drink",
+        "weight": 0.8799999999999999
+      },
+      {
+        "relation": "Causes",
+        "subject": "adult",
+        "object": "vehicle",
+        "weight": 0.5025
+      },
+      {
+        "relation": "Causes",
+        "subject": "dog",
+        "object": "flower",
+        "weight": 0.14250000000000002
+      },
+      {
+        "relation": "Causes",
+        "subject": "student",
+        "object": "smart",
+        "weight": 0.49750000000000005
+      },
+      {
+        "relation": "Causes",
+        "subject": "house",
+        "object": "help",
+        "weight": 0.925
+      },
+      {
+        "relation": "Causes",
+        "subject": "bird",
+        "object": "blue",
+        "weight": 0.36250000000000004
+      },
+      {
+        "relation": "Causes",
+        "subject": "student",
+        "object": "book",
+        "weight": 0.175
+      },
+      {
+        "relation": "Causes",
+        "subject": "adult",
+        "object": "blue",
+        "weight": 0.9475
+      },
+      {
+        "relation": "Causes",
+        "subject": "bird",
+        "object": "move",
+        "weight": 0.7549999999999999
+      },
+      {
+        "relation": "Causes",
+        "subject": "book",
+        "object": "weak",
+        "weight": 0.47750000000000004
+      },
+      {
+        "relation": "Causes",
+        "subject": "child",
+        "object": "object",
+        "weight": 0.9325000000000001
+      },
+      {
+        "relation": "Causes",
+        "subject": "dog",
+        "object": "slow",
+        "weight": 0.2375
+      },
+      {
+        "relation": "Causes",
+        "subject": "adult",
+        "object": "child",
+        "weight": 0.22499999999999998
+      },
+      {
+        "relation": "Causes",
+        "subject": "student",
+        "object": "red",
+        "weight": 0.5175
+      },
+      {
+        "relation": "Causes",
+        "subject": "adult",
+        "object": "happy",
+        "weight": 0.7525
+      },
+      {
+        "relation": "Causes",
+        "subject": "student",
+        "object": "jump",
+        "weight": 0.03749999999999998
+      },
+      {
+        "relation": "Causes",
+        "subject": "house",
+        "object": "dog",
+        "weight": 0.11499999999999999
+      },
+      {
+        "relation": "Causes",
+        "subject": "house",
+        "object": "food",
+        "weight": 0.45999999999999996
+      },
+      {
+        "relation": "Causes",
+        "subject": "tree",
+        "object": "student",
+        "weight": 0.21500000000000002
+      },
+      {
+        "relation": "Causes",
+        "subject": "house",
+        "object": "hot",
+        "weight": 0.07
+      },
+      {
+        "relation": "Causes",
+        "subject": "person",
+        "object": "sleep",
+        "weight": 0.64
+      },
+      {
+        "relation": "Causes",
+        "subject": "person",
+        "object": "kind",
+        "weight": 0.36250000000000004
+      },
+      {
+        "relation": "Causes",
+        "subject": "child",
+        "object": "work",
+        "weight": 0.8425
+      },
+      {
+        "relation": "Causes",
+        "subject": "cat",
+        "object": "teach",
+        "weight": 0.8799999999999999
+      },
+      {
+        "relation": "Causes",
+        "subject": "computer",
+        "object": "bird",
+        "weight": 0.3275
+      },
+      {
+        "relation": "Causes",
+        "subject": "cat",
+        "object": "kind",
+        "weight": 0.7225
+      },
+      {
+        "relation": "Causes",
+        "subject": "flower",
+        "object": "tree",
+        "weight": 0.15749999999999997
+      },
+      {
+        "relation": "Causes",
+        "subject": "house",
+        "object": "food",
+        "weight": 0.9950000000000001
+      },
+      {
+        "relation": "Causes",
+        "subject": "teacher",
+        "object": "grow",
+        "weight": 0.7849999999999999
+      },
+      {
+        "relation": "Causes",
+        "subject": "student",
+        "object": "book",
+        "weight": 0.0675
+      },
+      {
+        "relation": "Causes",
+        "subject": "bird",
+        "object": "weak",
+        "weight": 0.895
+      },
+      {
+        "relation": "Causes",
+        "subject": "car",
+        "object": "tool",
+        "weight": 0.9675
+      },
+      {
+        "relation": "Causes",
+        "subject": "child",
+        "object": "book",
+        "weight": 0.6825
+      },
+      {
+        "relation": "Causes",
+        "subject": "teacher",
+        "object": "bird",
+        "weight": 0.025000000000000022
+      },
+      {
+        "relation": "Causes",
+        "subject": "cat",
+        "object": "computer",
+        "weight": 0.15999999999999998
+      },
+      {
+        "relation": "Causes",
+        "subject": "dog",
+        "object": "think",
+        "weight": 0.8925000000000001
+      },
+      {
+        "relation": "Causes",
+        "subject": "adult",
+        "object": "building",
+        "weight": 0.355
+      },
+      {
+        "relation": "Causes",
+        "subject": "computer",
+        "object": "cat",
+        "weight": 0.0625
+      },
+      {
+        "relation": "Causes",
+        "subject": "book",
+        "object": "house",
+        "weight": 0.9075
+      },
+      {
+        "relation": "Causes",
+        "subject": "computer",
+        "object": "blue",
+        "weight": 0.395
+      },
+      {
+        "relation": "Causes",
+        "subject": "car",
+        "object": "adult",
+        "weight": 0.26
+      },
+      {
+        "relation": "Causes",
+        "subject": "student",
+        "object": "tree",
+        "weight": 0.04749999999999999
+      },
+      {
+        "relation": "Causes",
+        "subject": "house",
+        "object": "smart",
+        "weight": 0.012500000000000011
+      },
+      {
+        "relation": "Causes",
+        "subject": "cat",
+        "object": "animal",
+        "weight": 0.1225
+      },
+      {
+        "relation": "Causes",
+        "subject": "computer",
+        "object": "person",
+        "weight": 0.71
+      },
+      {
+        "relation": "Causes",
+        "subject": "car",
+        "object": "fly",
+        "weight": 0.505
+      },
+      {
+        "relation": "Causes",
+        "subject": "child",
+        "object": "run",
+        "weight": 0.135
+      },
+      {
+        "relation": "Causes",
+        "subject": "teacher",
+        "object": "flower",
+        "weight": 0.6
+      },
+      {
+        "relation": "Causes",
+        "subject": "car",
+        "object": "plant",
+        "weight": 0.5875
+      },
+      {
+        "relation": "Causes",
+        "subject": "car",
+        "object": "computer",
+        "weight": 0.010000000000000009
+      },
+      {
+        "relation": "Causes",
+        "subject": "tree",
+        "object": "blue",
+        "weight": 0.71
+      },
+      {
+        "relation": "Causes",
+        "subject": "house",
+        "object": "cat",
+        "weight": 0.9950000000000001
+      },
+      {
+        "relation": "Causes",
+        "subject": "student",
+        "object": "animal",
+        "weight": 0.08750000000000002
+      },
+      {
+        "relation": "Causes",
+        "subject": "child",
+        "object": "strong",
+        "weight": 0.725
+      },
+      {
+        "relation": "Causes",
+        "subject": "fish",
+        "object": "person",
+        "weight": 0.345
+      },
+      {
+        "relation": "Causes",
+        "subject": "bird",
+        "object": "drink",
+        "weight": 0.49750000000000005
+      },
+      {
+        "relation": "Causes",
+        "subject": "house",
+        "object": "tree",
+        "weight": 0.44999999999999996
+      },
+      {
+        "relation": "Causes",
+        "subject": "car",
+        "object": "move",
+        "weight": 0.6375
+      },
+      {
+        "relation": "Causes",
+        "subject": "fish",
+        "object": "furniture",
+        "weight": 0.48750000000000004
+      },
+      {
+        "relation": "Causes",
+        "subject": "car",
+        "object": "smart",
+        "weight": 0.09499999999999997
+      },
+      {
+        "relation": "Causes",
+        "subject": "bird",
+        "object": "fish",
+        "weight": 0.855
+      },
+      {
+        "relation": "Causes",
+        "subject": "house",
+        "object": "small",
+        "weight": 0.4075
+      },
+      {
+        "relation": "Causes",
+        "subject": "fish",
+        "object": "grow",
+        "weight": 0.020000000000000018
+      },
+      {
+        "relation": "Causes",
+        "subject": "cat",
+        "object": "work",
+        "weight": 0.6625
+      },
+      {
+        "relation": "Causes",
+        "subject": "teacher",
+        "object": "furniture",
+        "weight": 0.61
+      },
+      {
+        "relation": "Causes",
+        "subject": "fish",
+        "object": "eat",
+        "weight": 0.51
+      },
+      {
+        "relation": "Causes",
+        "subject": "tree",
+        "object": "book",
+        "weight": 0.9175
+      },
+      {
+        "relation": "Causes",
+        "subject": "house",
+        "object": "move",
+        "weight": 0.9125000000000001
+      },
+      {
+        "relation": "Causes",
+        "subject": "cat",
+        "object": "dog",
+        "weight": 0.43000000000000005
+      },
+      {
+        "relation": "Causes",
+        "subject": "car",
+        "object": "red",
+        "weight": 0.38249999999999995
+      },
+      {
+        "relation": "Causes",
+        "subject": "adult",
+        "object": "tool",
+        "weight": 0.057499999999999996
+      },
+      {
+        "relation": "Causes",
+        "subject": "dog",
+        "object": "tree",
+        "weight": 0.35250000000000004
+      },
+      {
+        "relation": "Causes",
+        "subject": "person",
+        "object": "sleep",
+        "weight": 0.8700000000000001
+      }
+    ],
+    "CausesDesire": [
+      {
+        "relation": "CausesDesire",
+        "subject": "house",
+        "object": "tree",
+        "weight": 0.22749999999999998
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "tree",
+        "object": "cat",
+        "weight": 0.705
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "house",
+        "object": "sleep",
+        "weight": 0.5825
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "bird",
+        "object": "cold",
+        "weight": 0.7725
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "car",
+        "object": "student",
+        "weight": 0.7275
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "adult",
+        "object": "adult",
+        "weight": 0.9375
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "flower",
+        "object": "cat",
+        "weight": 0.14
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "tree",
+        "object": "dog",
+        "weight": 0.62
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "computer",
+        "object": "bird",
+        "weight": 0.7225
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "student",
+        "object": "teacher",
+        "weight": 0.5375
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "computer",
+        "object": "sad",
+        "weight": 0.15250000000000002
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "car",
+        "object": "think",
+        "weight": 0.7475
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "book",
+        "object": "strong",
+        "weight": 0.25249999999999995
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "tree",
+        "object": "talk",
+        "weight": 0.8
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "child",
+        "object": "plant",
+        "weight": 0.09999999999999998
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "adult",
+        "object": "eat",
+        "weight": 0.04999999999999999
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "cat",
+        "object": "person",
+        "weight": 0.1725
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "teacher",
+        "object": "red",
+        "weight": 0.47750000000000004
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "tree",
+        "object": "run",
+        "weight": 0.22249999999999998
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "teacher",
+        "object": "eat",
+        "weight": 0.32499999999999996
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "student",
+        "object": "kind",
+        "weight": 0.5875
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "computer",
+        "object": "adult",
+        "weight": 0.7625
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "dog",
+        "object": "smart",
+        "weight": 0.9175
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "car",
+        "object": "vehicle",
+        "weight": 0.20750000000000002
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "dog",
+        "object": "small",
+        "weight": 0.09499999999999997
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "fish",
+        "object": "big",
+        "weight": 0.53
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "tree",
+        "object": "computer",
+        "weight": 0.63
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "house",
+        "object": "furniture",
+        "weight": 0.815
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "cat",
+        "object": "object",
+        "weight": 0.007500000000000007
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "car",
+        "object": "weak",
+        "weight": 0.545
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "flower",
+        "object": "weak",
+        "weight": 0.9850000000000001
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "person",
+        "object": "teach",
+        "weight": 0.5675
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "book",
+        "object": "teach",
+        "weight": 0.695
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "adult",
+        "object": "teacher",
+        "weight": 0.48
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "person",
+        "object": "think",
+        "weight": 0.96
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "flower",
+        "object": "tool",
+        "weight": 0.10249999999999998
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "flower",
+        "object": "red",
+        "weight": 0.7225
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "tree",
+        "object": "think",
+        "weight": 0.32499999999999996
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "computer",
+        "object": "fish",
+        "weight": 0.98
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "dog",
+        "object": "food",
+        "weight": 0.44499999999999995
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "book",
+        "object": "vehicle",
+        "weight": 0.9524999999999999
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "teacher",
+        "object": "swim",
+        "weight": 0.525
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "flower",
+        "object": "cat",
+        "weight": 0.595
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "computer",
+        "object": "jump",
+        "weight": 0.8425
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "fish",
+        "object": "sad",
+        "weight": 0.4075
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "teacher",
+        "object": "slow",
+        "weight": 0.26
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "adult",
+        "object": "tool",
+        "weight": 0.47
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "cat",
+        "object": "computer",
+        "weight": 0.3025
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "house",
+        "object": "smart",
+        "weight": 0.15500000000000003
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "person",
+        "object": "book",
+        "weight": 0.4425
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "person",
+        "object": "object",
+        "weight": 0.9775
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "cat",
+        "object": "fly",
+        "weight": 0.625
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "teacher",
+        "object": "sad",
+        "weight": 0.05499999999999999
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "car",
+        "object": "tree",
+        "weight": 0.275
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "tree",
+        "object": "work",
+        "weight": 0.09000000000000002
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "person",
+        "object": "house",
+        "weight": 0.14
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "dog",
+        "object": "small",
+        "weight": 0.2375
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "dog",
+        "object": "cold",
+        "weight": 0.9650000000000001
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "person",
+        "object": "grow",
+        "weight": 0.007500000000000007
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "fish",
+        "object": "animal",
+        "weight": 0.9199999999999999
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "dog",
+        "object": "sleep",
+        "weight": 0.24
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "adult",
+        "object": "help",
+        "weight": 0.10249999999999998
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "teacher",
+        "object": "teacher",
+        "weight": 0.2475
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "house",
+        "object": "person",
+        "weight": 0.2
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "computer",
+        "object": "happy",
+        "weight": 0.19
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "child",
+        "object": "strong",
+        "weight": 0.8400000000000001
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "car",
+        "object": "cold",
+        "weight": 0.4675
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "flower",
+        "object": "work",
+        "weight": 0.55
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "flower",
+        "object": "bird",
+        "weight": 0.245
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "computer",
+        "object": "tree",
+        "weight": 0.5725
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "tree",
+        "object": "food",
+        "weight": 0.48750000000000004
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "adult",
+        "object": "dog",
+        "weight": 0.875
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "fish",
+        "object": "think",
+        "weight": 0.4175
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "car",
+        "object": "furniture",
+        "weight": 0.32499999999999996
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "adult",
+        "object": "cat",
+        "weight": 0.0
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "flower",
+        "object": "eat",
+        "weight": 0.915
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "house",
+        "object": "tool",
+        "weight": 0.5925
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "student",
+        "object": "person",
+        "weight": 0.4125
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "teacher",
+        "object": "adult",
+        "weight": 0.8125
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "house",
+        "object": "teacher",
+        "weight": 0.007500000000000007
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "tree",
+        "object": "swim",
+        "weight": 0.2425
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "car",
+        "object": "drink",
+        "weight": 0.16249999999999998
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "computer",
+        "object": "teacher",
+        "weight": 0.62
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "book",
+        "object": "child",
+        "weight": 0.30500000000000005
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "child",
+        "object": "jump",
+        "weight": 0.48250000000000004
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "child",
+        "object": "tree",
+        "weight": 0.7775000000000001
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "fish",
+        "object": "sad",
+        "weight": 0.505
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "dog",
+        "object": "think",
+        "weight": 0.8
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "adult",
+        "object": "drink",
+        "weight": 0.10249999999999998
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "teacher",
+        "object": "blue",
+        "weight": 0.8200000000000001
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "tree",
+        "object": "learn",
+        "weight": 0.355
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "teacher",
+        "object": "teach",
+        "weight": 0.4375
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "fish",
+        "object": "weak",
+        "weight": 0.625
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "house",
+        "object": "teach",
+        "weight": 0.6775
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "flower",
+        "object": "building",
+        "weight": 0.8200000000000001
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "car",
+        "object": "fast",
+        "weight": 0.41000000000000003
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "adult",
+        "object": "adult",
+        "weight": 0.9225000000000001
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "car",
+        "object": "teacher",
+        "weight": 0.25
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "fish",
+        "object": "help",
+        "weight": 0.98
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "computer",
+        "object": "jump",
+        "weight": 0.6775
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "adult",
+        "object": "weak",
+        "weight": 0.0625
+      },
+      {
+        "relation": "CausesDesire",
+        "subject": "bird",
+        "object": "swim",
+        "weight": 0.1275
+      }
+    ],
+    "HasA": [
+      {
+        "relation": "HasA",
+        "subject": "bird",
+        "object": "move",
+        "weight": 0.41000000000000003
+      },
+      {
+        "relation": "HasA",
+        "subject": "fish",
+        "object": "tool",
+        "weight": 0.1175
+      },
+      {
+        "relation": "HasA",
+        "subject": "child",
+        "object": "sleep",
+        "weight": 0.5475
+      },
+      {
+        "relation": "HasA",
+        "subject": "teacher",
+        "object": "swim",
+        "weight": 0.925
+      },
+      {
+        "relation": "HasA",
+        "subject": "cat",
+        "object": "plant",
+        "weight": 0.5525
+      },
+      {
+        "relation": "HasA",
+        "subject": "book",
+        "object": "jump",
+        "weight": 0.5975
+      },
+      {
+        "relation": "HasA",
+        "subject": "student",
+        "object": "location",
+        "weight": 0.925
+      },
+      {
+        "relation": "HasA",
+        "subject": "car",
+        "object": "computer",
+        "weight": 0.495
+      },
+      {
+        "relation": "HasA",
+        "subject": "tree",
+        "object": "tree",
+        "weight": 0.585
+      },
+      {
+        "relation": "HasA",
+        "subject": "bird",
+        "object": "food",
+        "weight": 0.1925
+      },
+      {
+        "relation": "HasA",
+        "subject": "dog",
+        "object": "flower",
+        "weight": 0.595
+      },
+      {
+        "relation": "HasA",
+        "subject": "bird",
+        "object": "car",
+        "weight": 0.09749999999999998
+      },
+      {
+        "relation": "HasA",
+        "subject": "adult",
+        "object": "work",
+        "weight": 0.15500000000000003
+      },
+      {
+        "relation": "HasA",
+        "subject": "tree",
+        "object": "slow",
+        "weight": 0.925
+      },
+      {
+        "relation": "HasA",
+        "subject": "computer",
+        "object": "help",
+        "weight": 0.6425
+      },
+      {
+        "relation": "HasA",
+        "subject": "fish",
+        "object": "work",
+        "weight": 0.8799999999999999
+      },
+      {
+        "relation": "HasA",
+        "subject": "cat",
+        "object": "food",
+        "weight": 0.8700000000000001
+      },
+      {
+        "relation": "HasA",
+        "subject": "tree",
+        "object": "animal",
+        "weight": 0.03999999999999998
+      },
+      {
+        "relation": "HasA",
+        "subject": "teacher",
+        "object": "fish",
+        "weight": 0.4675
+      },
+      {
+        "relation": "HasA",
+        "subject": "bird",
+        "object": "computer",
+        "weight": 0.39249999999999996
+      },
+      {
+        "relation": "HasA",
+        "subject": "teacher",
+        "object": "child",
+        "weight": 0.7275
+      },
+      {
+        "relation": "HasA",
+        "subject": "person",
+        "object": "location",
+        "weight": 0.4375
+      },
+      {
+        "relation": "HasA",
+        "subject": "car",
+        "object": "person",
+        "weight": 0.19
+      },
+      {
+        "relation": "HasA",
+        "subject": "child",
+        "object": "building",
+        "weight": 0.485
+      },
+      {
+        "relation": "HasA",
+        "subject": "tree",
+        "object": "furniture",
+        "weight": 0.46499999999999997
+      },
+      {
+        "relation": "HasA",
+        "subject": "computer",
+        "object": "tree",
+        "weight": 0.8574999999999999
+      },
+      {
+        "relation": "HasA",
+        "subject": "computer",
+        "object": "computer",
+        "weight": 0.07250000000000001
+      },
+      {
+        "relation": "HasA",
+        "subject": "person",
+        "object": "drink",
+        "weight": 0.43500000000000005
+      },
+      {
+        "relation": "HasA",
+        "subject": "tree",
+        "object": "food",
+        "weight": 0.565
+      },
+      {
+        "relation": "HasA",
+        "subject": "teacher",
+        "object": "tool",
+        "weight": 0.8925000000000001
+      },
+      {
+        "relation": "HasA",
+        "subject": "cat",
+        "object": "building",
+        "weight": 0.895
+      },
+      {
+        "relation": "HasA",
+        "subject": "book",
+        "object": "bird",
+        "weight": 0.7325
+      },
+      {
+        "relation": "HasA",
+        "subject": "teacher",
+        "object": "hot",
+        "weight": 0.4325
+      },
+      {
+        "relation": "HasA",
+        "subject": "person",
+        "object": "work",
+        "weight": 0.36250000000000004
+      },
+      {
+        "relation": "HasA",
+        "subject": "tree",
+        "object": "hot",
+        "weight": 0.3275
+      },
+      {
+        "relation": "HasA",
+        "subject": "cat",
+        "object": "flower",
+        "weight": 0.8825000000000001
+      },
+      {
+        "relation": "HasA",
+        "subject": "person",
+        "object": "learn",
+        "weight": 0.605
+      },
+      {
+        "relation": "HasA",
+        "subject": "child",
+        "object": "fish",
+        "weight": 0.39
+      },
+      {
+        "relation": "HasA",
+        "subject": "student",
+        "object": "student",
+        "weight": 0.28500000000000003
+      },
+      {
+        "relation": "HasA",
+        "subject": "child",
+        "object": "tree",
+        "weight": 0.5075
+      },
+      {
+        "relation": "HasA",
+        "subject": "car",
+        "object": "run",
+        "weight": 0.37749999999999995
+      },
+      {
+        "relation": "HasA",
+        "subject": "cat",
+        "object": "work",
+        "weight": 0.05499999999999999
+      },
+      {
+        "relation": "HasA",
+        "subject": "adult",
+        "object": "tree",
+        "weight": 0.15500000000000003
+      },
+      {
+        "relation": "HasA",
+        "subject": "dog",
+        "object": "swim",
+        "weight": 0.45999999999999996
+      },
+      {
+        "relation": "HasA",
+        "subject": "fish",
+        "object": "learn",
+        "weight": 0.09250000000000003
+      },
+      {
+        "relation": "HasA",
+        "subject": "fish",
+        "object": "cold",
+        "weight": 0.30500000000000005
+      },
+      {
+        "relation": "HasA",
+        "subject": "fish",
+        "object": "tool",
+        "weight": 0.025000000000000022
+      },
+      {
+        "relation": "HasA",
+        "subject": "child",
+        "object": "vehicle",
+        "weight": 0.04999999999999999
+      },
+      {
+        "relation": "HasA",
+        "subject": "adult",
+        "object": "fast",
+        "weight": 0.48250000000000004
+      },
+      {
+        "relation": "HasA",
+        "subject": "teacher",
+        "object": "building",
+        "weight": 0.9450000000000001
+      },
+      {
+        "relation": "HasA",
+        "subject": "person",
+        "object": "happy",
+        "weight": 0.375
+      },
+      {
+        "relation": "HasA",
+        "subject": "book",
+        "object": "teach",
+        "weight": 0.4275
+      },
+      {
+        "relation": "HasA",
+        "subject": "dog",
+        "object": "teacher",
+        "weight": 0.1375
+      },
+      {
+        "relation": "HasA",
+        "subject": "cat",
+        "object": "person",
+        "weight": 0.71
+      },
+      {
+        "relation": "HasA",
+        "subject": "fish",
+        "object": "kind",
+        "weight": 0.8374999999999999
+      },
+      {
+        "relation": "HasA",
+        "subject": "fish",
+        "object": "plant",
+        "weight": 0.9075
+      },
+      {
+        "relation": "HasA",
+        "subject": "flower",
+        "object": "location",
+        "weight": 0.275
+      },
+      {
+        "relation": "HasA",
+        "subject": "computer",
+        "object": "location",
+        "weight": 0.5625
+      },
+      {
+        "relation": "HasA",
+        "subject": "dog",
+        "object": "cat",
+        "weight": 0.865
+      },
+      {
+        "relation": "HasA",
+        "subject": "tree",
+        "object": "hot",
+        "weight": 0.15749999999999997
+      },
+      {
+        "relation": "HasA",
+        "subject": "book",
+        "object": "kind",
+        "weight": 0.7375
+      },
+      {
+        "relation": "HasA",
+        "subject": "book",
+        "object": "run",
+        "weight": 0.38
+      },
+      {
+        "relation": "HasA",
+        "subject": "cat",
+        "object": "sleep",
+        "weight": 0.62
+      },
+      {
+        "relation": "HasA",
+        "subject": "child",
+        "object": "flower",
+        "weight": 0.8500000000000001
+      },
+      {
+        "relation": "HasA",
+        "subject": "child",
+        "object": "adult",
+        "weight": 0.8374999999999999
+      },
+      {
+        "relation": "HasA",
+        "subject": "bird",
+        "object": "computer",
+        "weight": 0.020000000000000018
+      },
+      {
+        "relation": "HasA",
+        "subject": "student",
+        "object": "run",
+        "weight": 0.4325
+      },
+      {
+        "relation": "HasA",
+        "subject": "cat",
+        "object": "plant",
+        "weight": 0.49250000000000005
+      },
+      {
+        "relation": "HasA",
+        "subject": "dog",
+        "object": "building",
+        "weight": 0.23249999999999998
+      },
+      {
+        "relation": "HasA",
+        "subject": "cat",
+        "object": "think",
+        "weight": 0.25249999999999995
+      },
+      {
+        "relation": "HasA",
+        "subject": "book",
+        "object": "work",
+        "weight": 0.9675
+      },
+      {
+        "relation": "HasA",
+        "subject": "book",
+        "object": "teach",
+        "weight": 0.4075
+      },
+      {
+        "relation": "HasA",
+        "subject": "computer",
+        "object": "teacher",
+        "weight": 0.6725
+      },
+      {
+        "relation": "HasA",
+        "subject": "adult",
+        "object": "furniture",
+        "weight": 0.4075
+      },
+      {
+        "relation": "HasA",
+        "subject": "child",
+        "object": "big",
+        "weight": 0.22249999999999998
+      },
+      {
+        "relation": "HasA",
+        "subject": "tree",
+        "object": "plant",
+        "weight": 0.15000000000000002
+      },
+      {
+        "relation": "HasA",
+        "subject": "dog",
+        "object": "bird",
+        "weight": 0.67
+      },
+      {
+        "relation": "HasA",
+        "subject": "adult",
+        "object": "cold",
+        "weight": 0.21250000000000002
+      },
+      {
+        "relation": "HasA",
+        "subject": "flower",
+        "object": "flower",
+        "weight": 0.725
+      },
+      {
+        "relation": "HasA",
+        "subject": "adult",
+        "object": "big",
+        "weight": 0.36250000000000004
+      },
+      {
+        "relation": "HasA",
+        "subject": "teacher",
+        "object": "work",
+        "weight": 0.14
+      },
+      {
+        "relation": "HasA",
+        "subject": "person",
+        "object": "learn",
+        "weight": 0.7475
+      },
+      {
+        "relation": "HasA",
+        "subject": "cat",
+        "object": "fish",
+        "weight": 0.7625
+      },
+      {
+        "relation": "HasA",
+        "subject": "dog",
+        "object": "think",
+        "weight": 0.19
+      },
+      {
+        "relation": "HasA",
+        "subject": "computer",
+        "object": "cold",
+        "weight": 0.3225
+      },
+      {
+        "relation": "HasA",
+        "subject": "tree",
+        "object": "object",
+        "weight": 0.1325
+      },
+      {
+        "relation": "HasA",
+        "subject": "flower",
+        "object": "object",
+        "weight": 0.1825
+      },
+      {
+        "relation": "HasA",
+        "subject": "dog",
+        "object": "help",
+        "weight": 0.07750000000000001
+      },
+      {
+        "relation": "HasA",
+        "subject": "tree",
+        "object": "blue",
+        "weight": 0.41500000000000004
+      },
+      {
+        "relation": "HasA",
+        "subject": "fish",
+        "object": "location",
+        "weight": 0.08500000000000002
+      },
+      {
+        "relation": "HasA",
+        "subject": "student",
+        "object": "learn",
+        "weight": 0.95
+      },
+      {
+        "relation": "HasA",
+        "subject": "cat",
+        "object": "person",
+        "weight": 0.32999999999999996
+      },
+      {
+        "relation": "HasA",
+        "subject": "computer",
+        "object": "sleep",
+        "weight": 0.22999999999999998
+      },
+      {
+        "relation": "HasA",
+        "subject": "computer",
+        "object": "fast",
+        "weight": 0.36250000000000004
+      },
+      {
+        "relation": "HasA",
+        "subject": "teacher",
+        "object": "kind",
+        "weight": 0.715
+      },
+      {
+        "relation": "HasA",
+        "subject": "cat",
+        "object": "car",
+        "weight": 0.3375
+      },
+      {
+        "relation": "HasA",
+        "subject": "fish",
+        "object": "talk",
+        "weight": 0.017500000000000016
+      },
+      {
+        "relation": "HasA",
+        "subject": "cat",
+        "object": "fast",
+        "weight": 0.04249999999999998
+      },
+      {
+        "relation": "HasA",
+        "subject": "tree",
+        "object": "flower",
+        "weight": 0.4
+      },
+      {
+        "relation": "HasA",
+        "subject": "house",
+        "object": "help",
+        "weight": 0.6525
+      },
+      {
+        "relation": "HasA",
+        "subject": "student",
+        "object": "blue",
+        "weight": 0.8200000000000001
+      },
+      {
+        "relation": "HasA",
+        "subject": "dog",
+        "object": "learn",
+        "weight": 0.565
+      },
+      {
+        "relation": "HasA",
+        "subject": "tree",
+        "object": "animal",
+        "weight": 0.875
+      }
+    ],
+    "AtLocation": [
+      {
+        "relation": "AtLocation",
+        "subject": "tree",
+        "object": "fly",
+        "weight": 0.29500000000000004
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "tree",
+        "object": "house",
+        "weight": 0.8025
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "book",
+        "object": "plant",
+        "weight": 0.3025
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "fish",
+        "object": "eat",
+        "weight": 0.06
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "teacher",
+        "object": "bird",
+        "weight": 0.4675
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "dog",
+        "object": "tree",
+        "weight": 0.6525
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "dog",
+        "object": "big",
+        "weight": 0.030000000000000027
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "dog",
+        "object": "grow",
+        "weight": 0.835
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "cat",
+        "object": "teacher",
+        "weight": 0.9824999999999999
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "flower",
+        "object": "big",
+        "weight": 0.8875
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "book",
+        "object": "adult",
+        "weight": 0.30500000000000005
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "teacher",
+        "object": "eat",
+        "weight": 0.7649999999999999
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "dog",
+        "object": "animal",
+        "weight": 0.8799999999999999
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "cat",
+        "object": "sleep",
+        "weight": 0.4575
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "computer",
+        "object": "car",
+        "weight": 0.42000000000000004
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "computer",
+        "object": "car",
+        "weight": 0.71
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "fish",
+        "object": "bird",
+        "weight": 0.855
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "person",
+        "object": "help",
+        "weight": 0.39749999999999996
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "person",
+        "object": "small",
+        "weight": 0.8
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "child",
+        "object": "drink",
+        "weight": 0.4075
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "cat",
+        "object": "adult",
+        "weight": 0.12
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "fish",
+        "object": "strong",
+        "weight": 0.1175
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "teacher",
+        "object": "drink",
+        "weight": 0.14750000000000002
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "bird",
+        "object": "talk",
+        "weight": 0.245
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "fish",
+        "object": "think",
+        "weight": 0.59
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "fish",
+        "object": "cat",
+        "weight": 0.044999999999999984
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "bird",
+        "object": "book",
+        "weight": 0.28500000000000003
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "dog",
+        "object": "small",
+        "weight": 0.25749999999999995
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "fish",
+        "object": "furniture",
+        "weight": 0.42500000000000004
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "house",
+        "object": "grow",
+        "weight": 0.7875000000000001
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "bird",
+        "object": "location",
+        "weight": 0.03749999999999998
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "child",
+        "object": "fish",
+        "weight": 0.2875
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "computer",
+        "object": "smart",
+        "weight": 0.1175
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "computer",
+        "object": "flower",
+        "weight": 0.47
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "book",
+        "object": "strong",
+        "weight": 0.9075
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "dog",
+        "object": "small",
+        "weight": 0.61
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "child",
+        "object": "fast",
+        "weight": 0.6025
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "dog",
+        "object": "sleep",
+        "weight": 0.505
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "dog",
+        "object": "tree",
+        "weight": 0.1325
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "dog",
+        "object": "swim",
+        "weight": 0.35
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "fish",
+        "object": "person",
+        "weight": 0.585
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "person",
+        "object": "book",
+        "weight": 0.26249999999999996
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "cat",
+        "object": "help",
+        "weight": 0.1925
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "house",
+        "object": "hot",
+        "weight": 0.38249999999999995
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "book",
+        "object": "talk",
+        "weight": 0.4325
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "house",
+        "object": "fast",
+        "weight": 0.30000000000000004
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "teacher",
+        "object": "kind",
+        "weight": 0.5
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "house",
+        "object": "computer",
+        "weight": 0.95
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "bird",
+        "object": "talk",
+        "weight": 0.6
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "car",
+        "object": "strong",
+        "weight": 0.78
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "adult",
+        "object": "cold",
+        "weight": 0.44499999999999995
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "child",
+        "object": "smart",
+        "weight": 0.665
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "teacher",
+        "object": "house",
+        "weight": 0.5525
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "adult",
+        "object": "house",
+        "weight": 0.875
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "car",
+        "object": "strong",
+        "weight": 0.545
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "teacher",
+        "object": "teach",
+        "weight": 0.41000000000000003
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "house",
+        "object": "strong",
+        "weight": 0.3075
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "computer",
+        "object": "red",
+        "weight": 0.1175
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "house",
+        "object": "kind",
+        "weight": 0.405
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "flower",
+        "object": "jump",
+        "weight": 0.16999999999999998
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "bird",
+        "object": "object",
+        "weight": 0.13
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "bird",
+        "object": "red",
+        "weight": 0.07750000000000001
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "student",
+        "object": "computer",
+        "weight": 0.8075000000000001
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "car",
+        "object": "building",
+        "weight": 0.9950000000000001
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "child",
+        "object": "cat",
+        "weight": 0.9199999999999999
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "cat",
+        "object": "vehicle",
+        "weight": 0.545
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "person",
+        "object": "help",
+        "weight": 0.76
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "teacher",
+        "object": "cat",
+        "weight": 0.48
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "dog",
+        "object": "fly",
+        "weight": 0.6875
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "dog",
+        "object": "fast",
+        "weight": 0.3225
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "child",
+        "object": "book",
+        "weight": 0.0
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "student",
+        "object": "house",
+        "weight": 0.9575
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "tree",
+        "object": "fly",
+        "weight": 0.5525
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "fish",
+        "object": "vehicle",
+        "weight": 0.6475
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "car",
+        "object": "fish",
+        "weight": 0.10749999999999998
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "student",
+        "object": "sad",
+        "weight": 0.9025000000000001
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "teacher",
+        "object": "child",
+        "weight": 0.9675
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "house",
+        "object": "sad",
+        "weight": 0.42000000000000004
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "student",
+        "object": "teach",
+        "weight": 0.535
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "child",
+        "object": "slow",
+        "weight": 0.7325
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "cat",
+        "object": "fast",
+        "weight": 0.7549999999999999
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "fish",
+        "object": "move",
+        "weight": 0.935
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "computer",
+        "object": "computer",
+        "weight": 0.8325
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "adult",
+        "object": "fish",
+        "weight": 0.75
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "dog",
+        "object": "student",
+        "weight": 0.535
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "flower",
+        "object": "fly",
+        "weight": 0.35
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "adult",
+        "object": "weak",
+        "weight": 0.9225000000000001
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "tree",
+        "object": "teach",
+        "weight": 0.03249999999999997
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "house",
+        "object": "hot",
+        "weight": 0.16249999999999998
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "flower",
+        "object": "talk",
+        "weight": 0.4425
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "flower",
+        "object": "dog",
+        "weight": 0.6425
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "fish",
+        "object": "jump",
+        "weight": 0.63
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "person",
+        "object": "move",
+        "weight": 0.017500000000000016
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "book",
+        "object": "strong",
+        "weight": 0.37749999999999995
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "student",
+        "object": "teach",
+        "weight": 0.7575000000000001
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "tree",
+        "object": "book",
+        "weight": 0.27
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "child",
+        "object": "red",
+        "weight": 0.675
+      },
+      {
+        "relation": "AtLocation",
+        "subject": "teacher",
+        "object": "weak",
+        "weight": 0.8625
+      }
+    ],
+    "UsedFor": [
+      {
+        "relation": "UsedFor",
+        "subject": "book",
+        "object": "small",
+        "weight": 0.20500000000000002
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "computer",
+        "object": "think",
+        "weight": 0.15250000000000002
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "teacher",
+        "object": "sleep",
+        "weight": 0.8049999999999999
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "car",
+        "object": "cat",
+        "weight": 0.275
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "person",
+        "object": "tool",
+        "weight": 0.8775
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "bird",
+        "object": "smart",
+        "weight": 0.2
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "book",
+        "object": "happy",
+        "weight": 0.97
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "house",
+        "object": "grow",
+        "weight": 0.7375
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "student",
+        "object": "swim",
+        "weight": 0.27749999999999997
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "dog",
+        "object": "blue",
+        "weight": 0.22999999999999998
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "adult",
+        "object": "help",
+        "weight": 0.23249999999999998
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "child",
+        "object": "talk",
+        "weight": 0.705
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "dog",
+        "object": "eat",
+        "weight": 0.9975
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "fish",
+        "object": "tool",
+        "weight": 0.14750000000000002
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "teacher",
+        "object": "grow",
+        "weight": 0.49
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "teacher",
+        "object": "weak",
+        "weight": 0.7425
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "bird",
+        "object": "person",
+        "weight": 0.11249999999999999
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "fish",
+        "object": "kind",
+        "weight": 0.9275
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "computer",
+        "object": "swim",
+        "weight": 0.905
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "teacher",
+        "object": "swim",
+        "weight": 0.54
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "person",
+        "object": "teacher",
+        "weight": 0.5225
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "fish",
+        "object": "bird",
+        "weight": 0.94
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "book",
+        "object": "move",
+        "weight": 0.66
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "teacher",
+        "object": "slow",
+        "weight": 0.935
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "child",
+        "object": "vehicle",
+        "weight": 0.14500000000000002
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "fish",
+        "object": "swim",
+        "weight": 0.135
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "cat",
+        "object": "talk",
+        "weight": 0.48750000000000004
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "car",
+        "object": "big",
+        "weight": 0.665
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "bird",
+        "object": "hot",
+        "weight": 0.37749999999999995
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "child",
+        "object": "hot",
+        "weight": 0.925
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "house",
+        "object": "sad",
+        "weight": 0.6175
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "child",
+        "object": "computer",
+        "weight": 0.5275
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "tree",
+        "object": "student",
+        "weight": 0.1225
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "adult",
+        "object": "tool",
+        "weight": 0.8425
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "flower",
+        "object": "slow",
+        "weight": 0.4375
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "adult",
+        "object": "kind",
+        "weight": 0.07250000000000001
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "computer",
+        "object": "vehicle",
+        "weight": 0.012500000000000011
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "adult",
+        "object": "house",
+        "weight": 0.67
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "child",
+        "object": "weak",
+        "weight": 0.1325
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "person",
+        "object": "person",
+        "weight": 0.675
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "flower",
+        "object": "location",
+        "weight": 0.31999999999999995
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "flower",
+        "object": "red",
+        "weight": 0.0675
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "tree",
+        "object": "book",
+        "weight": 0.49250000000000005
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "tree",
+        "object": "vehicle",
+        "weight": 0.9375
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "student",
+        "object": "learn",
+        "weight": 0.030000000000000027
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "bird",
+        "object": "adult",
+        "weight": 0.8025
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "cat",
+        "object": "furniture",
+        "weight": 0.44999999999999996
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "bird",
+        "object": "teacher",
+        "weight": 0.99
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "child",
+        "object": "swim",
+        "weight": 0.10749999999999998
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "flower",
+        "object": "teacher",
+        "weight": 0.5625
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "adult",
+        "object": "smart",
+        "weight": 0.9524999999999999
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "teacher",
+        "object": "slow",
+        "weight": 0.9624999999999999
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "car",
+        "object": "car",
+        "weight": 0.1925
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "fish",
+        "object": "tool",
+        "weight": 0.8825000000000001
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "car",
+        "object": "big",
+        "weight": 0.0625
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "dog",
+        "object": "car",
+        "weight": 0.09250000000000003
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "bird",
+        "object": "sleep",
+        "weight": 0.03999999999999998
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "child",
+        "object": "blue",
+        "weight": 0.21750000000000003
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "teacher",
+        "object": "fly",
+        "weight": 0.405
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "child",
+        "object": "plant",
+        "weight": 0.97
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "fish",
+        "object": "sad",
+        "weight": 0.9475
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "cat",
+        "object": "help",
+        "weight": 0.7849999999999999
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "car",
+        "object": "furniture",
+        "weight": 0.8274999999999999
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "computer",
+        "object": "flower",
+        "weight": 0.69
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "house",
+        "object": "weak",
+        "weight": 0.14500000000000002
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "tree",
+        "object": "small",
+        "weight": 0.645
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "adult",
+        "object": "smart",
+        "weight": 0.6875
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "child",
+        "object": "eat",
+        "weight": 0.925
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "adult",
+        "object": "cold",
+        "weight": 0.56
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "teacher",
+        "object": "cat",
+        "weight": 0.125
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "bird",
+        "object": "tool",
+        "weight": 0.53
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "person",
+        "object": "drink",
+        "weight": 0.77
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "bird",
+        "object": "flower",
+        "weight": 0.385
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "fish",
+        "object": "cat",
+        "weight": 0.45499999999999996
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "tree",
+        "object": "fast",
+        "weight": 0.635
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "child",
+        "object": "plant",
+        "weight": 0.9650000000000001
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "dog",
+        "object": "grow",
+        "weight": 0.62
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "bird",
+        "object": "food",
+        "weight": 0.64
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "book",
+        "object": "kind",
+        "weight": 0.5725
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "child",
+        "object": "teach",
+        "weight": 0.25
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "house",
+        "object": "strong",
+        "weight": 0.3375
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "tree",
+        "object": "fast",
+        "weight": 0.21750000000000003
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "computer",
+        "object": "red",
+        "weight": 0.36250000000000004
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "dog",
+        "object": "object",
+        "weight": 0.7275
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "fish",
+        "object": "think",
+        "weight": 0.37
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "computer",
+        "object": "dog",
+        "weight": 0.8674999999999999
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "student",
+        "object": "adult",
+        "weight": 0.49750000000000005
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "dog",
+        "object": "dog",
+        "weight": 0.1275
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "bird",
+        "object": "bird",
+        "weight": 0.8200000000000001
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "tree",
+        "object": "work",
+        "weight": 0.705
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "cat",
+        "object": "fish",
+        "weight": 0.6975
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "teacher",
+        "object": "food",
+        "weight": 0.8975
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "student",
+        "object": "swim",
+        "weight": 0.36250000000000004
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "fish",
+        "object": "tree",
+        "weight": 0.42000000000000004
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "fish",
+        "object": "food",
+        "weight": 0.9475
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "house",
+        "object": "adult",
+        "weight": 0.565
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "fish",
+        "object": "animal",
+        "weight": 0.7749999999999999
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "child",
+        "object": "learn",
+        "weight": 0.7225
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "cat",
+        "object": "sleep",
+        "weight": 0.4625
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "cat",
+        "object": "blue",
+        "weight": 0.26749999999999996
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "tree",
+        "object": "bird",
+        "weight": 0.875
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "child",
+        "object": "fast",
+        "weight": 0.57
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "tree",
+        "object": "tool",
+        "weight": 0.625
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "cat",
+        "object": "computer",
+        "weight": 0.7649999999999999
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "tree",
+        "object": "sad",
+        "weight": 0.8075000000000001
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "computer",
+        "object": "adult",
+        "weight": 0.4325
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "car",
+        "object": "grow",
+        "weight": 0.1925
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "bird",
+        "object": "sad",
+        "weight": 0.37
+      },
+      {
+        "relation": "UsedFor",
+        "subject": "cat",
+        "object": "work",
+        "weight": 0.25749999999999995
+      }
+    ],
+    "HasProperty": [
+      {
+        "relation": "HasProperty",
+        "subject": "child",
+        "object": "sad",
+        "weight": 0.31499999999999995
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "student",
+        "object": "kind",
+        "weight": 0.8875
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "dog",
+        "object": "slow",
+        "weight": 0.6225
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "person",
+        "object": "smart",
+        "weight": 0.665
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "student",
+        "object": "big",
+        "weight": 0.36750000000000005
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "bird",
+        "object": "hot",
+        "weight": 0.4675
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "cat",
+        "object": "small",
+        "weight": 0.8
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "person",
+        "object": "blue",
+        "weight": 0.22749999999999998
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "car",
+        "object": "happy",
+        "weight": 0.5975
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "flower",
+        "object": "cold",
+        "weight": 0.08000000000000002
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "house",
+        "object": "big",
+        "weight": 0.44999999999999996
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "book",
+        "object": "red",
+        "weight": 0.55
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "car",
+        "object": "smart",
+        "weight": 0.655
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "teacher",
+        "object": "sad",
+        "weight": 0.5175
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "teacher",
+        "object": "fast",
+        "weight": 0.3025
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "teacher",
+        "object": "hot",
+        "weight": 0.03999999999999998
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "person",
+        "object": "small",
+        "weight": 0.7375
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "bird",
+        "object": "fast",
+        "weight": 0.835
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "cat",
+        "object": "fast",
+        "weight": 0.8274999999999999
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "teacher",
+        "object": "happy",
+        "weight": 0.1325
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "person",
+        "object": "happy",
+        "weight": 0.3375
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "house",
+        "object": "strong",
+        "weight": 0.15000000000000002
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "book",
+        "object": "cold",
+        "weight": 0.10999999999999999
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "computer",
+        "object": "blue",
+        "weight": 0.485
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "tree",
+        "object": "small",
+        "weight": 0.68
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "car",
+        "object": "red",
+        "weight": 0.08750000000000002
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "fish",
+        "object": "small",
+        "weight": 0.99
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "child",
+        "object": "smart",
+        "weight": 0.2425
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "cat",
+        "object": "fast",
+        "weight": 0.4275
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "flower",
+        "object": "red",
+        "weight": 0.9025000000000001
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "house",
+        "object": "slow",
+        "weight": 0.015000000000000013
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "cat",
+        "object": "slow",
+        "weight": 0.27749999999999997
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "child",
+        "object": "smart",
+        "weight": 0.735
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "fish",
+        "object": "big",
+        "weight": 0.56
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "child",
+        "object": "weak",
+        "weight": 0.12
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "cat",
+        "object": "hot",
+        "weight": 0.9275
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "cat",
+        "object": "hot",
+        "weight": 0.2975
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "person",
+        "object": "hot",
+        "weight": 0.13
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "teacher",
+        "object": "smart",
+        "weight": 0.6625
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "student",
+        "object": "happy",
+        "weight": 0.56
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "person",
+        "object": "kind",
+        "weight": 0.74
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "teacher",
+        "object": "sad",
+        "weight": 0.5425
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "adult",
+        "object": "cold",
+        "weight": 0.68
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "tree",
+        "object": "fast",
+        "weight": 0.9325000000000001
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "teacher",
+        "object": "red",
+        "weight": 0.635
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "adult",
+        "object": "smart",
+        "weight": 0.5425
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "dog",
+        "object": "fast",
+        "weight": 0.7675000000000001
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "book",
+        "object": "slow",
+        "weight": 0.8200000000000001
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "adult",
+        "object": "sad",
+        "weight": 0.8400000000000001
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "teacher",
+        "object": "kind",
+        "weight": 0.505
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "student",
+        "object": "slow",
+        "weight": 0.08250000000000002
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "tree",
+        "object": "small",
+        "weight": 0.7749999999999999
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "adult",
+        "object": "sad",
+        "weight": 0.675
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "computer",
+        "object": "strong",
+        "weight": 0.22249999999999998
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "child",
+        "object": "happy",
+        "weight": 0.73
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "cat",
+        "object": "slow",
+        "weight": 0.4
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "student",
+        "object": "slow",
+        "weight": 0.15250000000000002
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "student",
+        "object": "fast",
+        "weight": 0.39249999999999996
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "teacher",
+        "object": "kind",
+        "weight": 0.47
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "person",
+        "object": "cold",
+        "weight": 0.03249999999999997
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "bird",
+        "object": "sad",
+        "weight": 0.45999999999999996
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "book",
+        "object": "slow",
+        "weight": 0.645
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "tree",
+        "object": "red",
+        "weight": 0.9125000000000001
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "tree",
+        "object": "fast",
+        "weight": 0.915
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "adult",
+        "object": "strong",
+        "weight": 0.1175
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "tree",
+        "object": "fast",
+        "weight": 0.37250000000000005
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "fish",
+        "object": "slow",
+        "weight": 0.2925
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "cat",
+        "object": "fast",
+        "weight": 0.6
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "teacher",
+        "object": "strong",
+        "weight": 0.8975
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "dog",
+        "object": "smart",
+        "weight": 0.9524999999999999
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "fish",
+        "object": "smart",
+        "weight": 0.79
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "person",
+        "object": "sad",
+        "weight": 0.4225
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "person",
+        "object": "smart",
+        "weight": 0.8999999999999999
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "teacher",
+        "object": "kind",
+        "weight": 0.535
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "tree",
+        "object": "blue",
+        "weight": 0.255
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "adult",
+        "object": "smart",
+        "weight": 0.27749999999999997
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "car",
+        "object": "kind",
+        "weight": 0.9099999999999999
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "person",
+        "object": "strong",
+        "weight": 0.8049999999999999
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "child",
+        "object": "happy",
+        "weight": 0.9125000000000001
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "teacher",
+        "object": "big",
+        "weight": 0.25249999999999995
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "bird",
+        "object": "blue",
+        "weight": 0.20750000000000002
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "dog",
+        "object": "weak",
+        "weight": 0.7375
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "house",
+        "object": "small",
+        "weight": 0.4425
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "fish",
+        "object": "weak",
+        "weight": 0.3125
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "fish",
+        "object": "fast",
+        "weight": 0.21500000000000002
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "book",
+        "object": "weak",
+        "weight": 0.22749999999999998
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "fish",
+        "object": "smart",
+        "weight": 0.9225000000000001
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "house",
+        "object": "strong",
+        "weight": 0.8425
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "child",
+        "object": "blue",
+        "weight": 0.925
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "car",
+        "object": "cold",
+        "weight": 0.8799999999999999
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "child",
+        "object": "slow",
+        "weight": 0.8025
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "cat",
+        "object": "cold",
+        "weight": 0.08500000000000002
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "car",
+        "object": "smart",
+        "weight": 0.7949999999999999
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "tree",
+        "object": "hot",
+        "weight": 0.615
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "dog",
+        "object": "happy",
+        "weight": 0.32499999999999996
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "bird",
+        "object": "hot",
+        "weight": 0.485
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "bird",
+        "object": "small",
+        "weight": 0.33999999999999997
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "tree",
+        "object": "fast",
+        "weight": 0.185
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "car",
+        "object": "red",
+        "weight": 0.3375
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "fish",
+        "object": "hot",
+        "weight": 0.27
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "cat",
+        "object": "happy",
+        "weight": 0.125
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "house",
+        "object": "small",
+        "weight": 0.27249999999999996
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "house",
+        "object": "hot",
+        "weight": 0.05499999999999999
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "dog",
+        "object": "hot",
+        "weight": 0.74
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "cat",
+        "object": "fast",
+        "weight": 0.675
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "book",
+        "object": "smart",
+        "weight": 0.9750000000000001
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "tree",
+        "object": "sad",
+        "weight": 0.7825
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "adult",
+        "object": "hot",
+        "weight": 0.8625
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "flower",
+        "object": "strong",
+        "weight": 0.195
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "book",
+        "object": "red",
+        "weight": 0.685
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "person",
+        "object": "strong",
+        "weight": 0.05249999999999999
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "fish",
+        "object": "cold",
+        "weight": 0.48750000000000004
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "flower",
+        "object": "smart",
+        "weight": 0.7849999999999999
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "car",
+        "object": "strong",
+        "weight": 0.7475
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "dog",
+        "object": "weak",
+        "weight": 0.51
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "fish",
+        "object": "big",
+        "weight": 0.47750000000000004
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "book",
+        "object": "red",
+        "weight": 0.25249999999999995
+      },
+      {
+        "relation": "HasProperty",
+        "subject": "house",
+        "object": "slow",
+        "weight": 0.99
+      }
+    ],
+    "PartOf": [
+      {
+        "relation": "PartOf",
+        "subject": "person",
+        "object": "grow",
+        "weight": 0.47750000000000004
+      },
+      {
+        "relation": "PartOf",
+        "subject": "cat",
+        "object": "work",
+        "weight": 0.405
+      },
+      {
+        "relation": "PartOf",
+        "subject": "house",
+        "object": "grow",
+        "weight": 0.20750000000000002
+      },
+      {
+        "relation": "PartOf",
+        "subject": "teacher",
+        "object": "swim",
+        "weight": 0.915
+      },
+      {
+        "relation": "PartOf",
+        "subject": "cat",
+        "object": "teach",
+        "weight": 0.15749999999999997
+      },
+      {
+        "relation": "PartOf",
+        "subject": "computer",
+        "object": "animal",
+        "weight": 0.5375
+      },
+      {
+        "relation": "PartOf",
+        "subject": "teacher",
+        "object": "child",
+        "weight": 0.9550000000000001
+      },
+      {
+        "relation": "PartOf",
+        "subject": "computer",
+        "object": "big",
+        "weight": 0.95
+      },
+      {
+        "relation": "PartOf",
+        "subject": "child",
+        "object": "small",
+        "weight": 0.6975
+      },
+      {
+        "relation": "PartOf",
+        "subject": "cat",
+        "object": "happy",
+        "weight": 0.6825
+      },
+      {
+        "relation": "PartOf",
+        "subject": "dog",
+        "object": "smart",
+        "weight": 0.7275
+      },
+      {
+        "relation": "PartOf",
+        "subject": "fish",
+        "object": "help",
+        "weight": 0.04749999999999999
+      },
+      {
+        "relation": "PartOf",
+        "subject": "computer",
+        "object": "object",
+        "weight": 0.6675
+      },
+      {
+        "relation": "PartOf",
+        "subject": "car",
+        "object": "smart",
+        "weight": 0.52
+      },
+      {
+        "relation": "PartOf",
+        "subject": "student",
+        "object": "bird",
+        "weight": 0.67
+      },
+      {
+        "relation": "PartOf",
+        "subject": "adult",
+        "object": "happy",
+        "weight": 0.8125
+      },
+      {
+        "relation": "PartOf",
+        "subject": "fish",
+        "object": "grow",
+        "weight": 0.38249999999999995
+      },
+      {
+        "relation": "PartOf",
+        "subject": "teacher",
+        "object": "blue",
+        "weight": 0.56
+      },
+      {
+        "relation": "PartOf",
+        "subject": "house",
+        "object": "tool",
+        "weight": 0.9225000000000001
+      },
+      {
+        "relation": "PartOf",
+        "subject": "dog",
+        "object": "furniture",
+        "weight": 0.22499999999999998
+      },
+      {
+        "relation": "PartOf",
+        "subject": "bird",
+        "object": "plant",
+        "weight": 0.9875
+      },
+      {
+        "relation": "PartOf",
+        "subject": "car",
+        "object": "bird",
+        "weight": 0.9675
+      },
+      {
+        "relation": "PartOf",
+        "subject": "computer",
+        "object": "furniture",
+        "weight": 0.36
+      },
+      {
+        "relation": "PartOf",
+        "subject": "student",
+        "object": "adult",
+        "weight": 0.78
+      },
+      {
+        "relation": "PartOf",
+        "subject": "car",
+        "object": "tree",
+        "weight": 0.725
+      },
+      {
+        "relation": "PartOf",
+        "subject": "child",
+        "object": "blue",
+        "weight": 0.06
+      },
+      {
+        "relation": "PartOf",
+        "subject": "student",
+        "object": "plant",
+        "weight": 0.8075000000000001
+      },
+      {
+        "relation": "PartOf",
+        "subject": "bird",
+        "object": "weak",
+        "weight": 0.012500000000000011
+      },
+      {
+        "relation": "PartOf",
+        "subject": "bird",
+        "object": "person",
+        "weight": 0.8925000000000001
+      },
+      {
+        "relation": "PartOf",
+        "subject": "house",
+        "object": "fast",
+        "weight": 0.905
+      },
+      {
+        "relation": "PartOf",
+        "subject": "flower",
+        "object": "drink",
+        "weight": 0.8725
+      },
+      {
+        "relation": "PartOf",
+        "subject": "tree",
+        "object": "teach",
+        "weight": 0.37250000000000005
+      },
+      {
+        "relation": "PartOf",
+        "subject": "child",
+        "object": "eat",
+        "weight": 0.09499999999999997
+      },
+      {
+        "relation": "PartOf",
+        "subject": "car",
+        "object": "talk",
+        "weight": 0.1775
+      },
+      {
+        "relation": "PartOf",
+        "subject": "computer",
+        "object": "bird",
+        "weight": 0.9550000000000001
+      },
+      {
+        "relation": "PartOf",
+        "subject": "bird",
+        "object": "tree",
+        "weight": 0.39249999999999996
+      },
+      {
+        "relation": "PartOf",
+        "subject": "tree",
+        "object": "talk",
+        "weight": 0.37250000000000005
+      },
+      {
+        "relation": "PartOf",
+        "subject": "teacher",
+        "object": "sleep",
+        "weight": 0.21000000000000002
+      },
+      {
+        "relation": "PartOf",
+        "subject": "car",
+        "object": "smart",
+        "weight": 0.76
+      },
+      {
+        "relation": "PartOf",
+        "subject": "student",
+        "object": "jump",
+        "weight": 0.027500000000000024
+      },
+      {
+        "relation": "PartOf",
+        "subject": "student",
+        "object": "animal",
+        "weight": 0.8049999999999999
+      },
+      {
+        "relation": "PartOf",
+        "subject": "tree",
+        "object": "child",
+        "weight": 0.4625
+      },
+      {
+        "relation": "PartOf",
+        "subject": "student",
+        "object": "child",
+        "weight": 0.645
+      },
+      {
+        "relation": "PartOf",
+        "subject": "person",
+        "object": "slow",
+        "weight": 0.495
+      },
+      {
+        "relation": "PartOf",
+        "subject": "cat",
+        "object": "fast",
+        "weight": 0.05249999999999999
+      },
+      {
+        "relation": "PartOf",
+        "subject": "fish",
+        "object": "kind",
+        "weight": 0.97
+      },
+      {
+        "relation": "PartOf",
+        "subject": "flower",
+        "object": "computer",
+        "weight": 0.4575
+      },
+      {
+        "relation": "PartOf",
+        "subject": "house",
+        "object": "fast",
+        "weight": 0.8999999999999999
+      },
+      {
+        "relation": "PartOf",
+        "subject": "car",
+        "object": "student",
+        "weight": 0.33999999999999997
+      },
+      {
+        "relation": "PartOf",
+        "subject": "computer",
+        "object": "animal",
+        "weight": 0.825
+      },
+      {
+        "relation": "PartOf",
+        "subject": "student",
+        "object": "flower",
+        "weight": 0.605
+      },
+      {
+        "relation": "PartOf",
+        "subject": "cat",
+        "object": "cold",
+        "weight": 0.9624999999999999
+      },
+      {
+        "relation": "PartOf",
+        "subject": "car",
+        "object": "animal",
+        "weight": 0.28500000000000003
+      },
+      {
+        "relation": "PartOf",
+        "subject": "book",
+        "object": "grow",
+        "weight": 0.5025
+      },
+      {
+        "relation": "PartOf",
+        "subject": "dog",
+        "object": "sad",
+        "weight": 0.405
+      },
+      {
+        "relation": "PartOf",
+        "subject": "child",
+        "object": "help",
+        "weight": 0.5325
+      },
+      {
+        "relation": "PartOf",
+        "subject": "cat",
+        "object": "think",
+        "weight": 0.575
+      },
+      {
+        "relation": "PartOf",
+        "subject": "book",
+        "object": "blue",
+        "weight": 0.34750000000000003
+      },
+      {
+        "relation": "PartOf",
+        "subject": "book",
+        "object": "computer",
+        "weight": 0.925
+      },
+      {
+        "relation": "PartOf",
+        "subject": "student",
+        "object": "eat",
+        "weight": 0.8500000000000001
+      },
+      {
+        "relation": "PartOf",
+        "subject": "car",
+        "object": "person",
+        "weight": 0.75
+      },
+      {
+        "relation": "PartOf",
+        "subject": "house",
+        "object": "fast",
+        "weight": 0.34750000000000003
+      },
+      {
+        "relation": "PartOf",
+        "subject": "child",
+        "object": "small",
+        "weight": 0.5475
+      },
+      {
+        "relation": "PartOf",
+        "subject": "tree",
+        "object": "tool",
+        "weight": 0.39249999999999996
+      },
+      {
+        "relation": "PartOf",
+        "subject": "tree",
+        "object": "house",
+        "weight": 0.41500000000000004
+      },
+      {
+        "relation": "PartOf",
+        "subject": "child",
+        "object": "slow",
+        "weight": 0.1225
+      },
+      {
+        "relation": "PartOf",
+        "subject": "cat",
+        "object": "plant",
+        "weight": 0.9975
+      },
+      {
+        "relation": "PartOf",
+        "subject": "teacher",
+        "object": "animal",
+        "weight": 0.38249999999999995
+      },
+      {
+        "relation": "PartOf",
+        "subject": "adult",
+        "object": "person",
+        "weight": 0.9325000000000001
+      },
+      {
+        "relation": "PartOf",
+        "subject": "house",
+        "object": "adult",
+        "weight": 0.5625
+      },
+      {
+        "relation": "PartOf",
+        "subject": "adult",
+        "object": "building",
+        "weight": 0.255
+      },
+      {
+        "relation": "PartOf",
+        "subject": "bird",
+        "object": "person",
+        "weight": 0.21999999999999997
+      },
+      {
+        "relation": "PartOf",
+        "subject": "computer",
+        "object": "teacher",
+        "weight": 0.9524999999999999
+      },
+      {
+        "relation": "PartOf",
+        "subject": "flower",
+        "object": "sleep",
+        "weight": 0.1725
+      },
+      {
+        "relation": "PartOf",
+        "subject": "fish",
+        "object": "animal",
+        "weight": 0.9299999999999999
+      },
+      {
+        "relation": "PartOf",
+        "subject": "tree",
+        "object": "learn",
+        "weight": 0.09999999999999998
+      },
+      {
+        "relation": "PartOf",
+        "subject": "teacher",
+        "object": "adult",
+        "weight": 0.9675
+      },
+      {
+        "relation": "PartOf",
+        "subject": "fish",
+        "object": "bird",
+        "weight": 0.555
+      },
+      {
+        "relation": "PartOf",
+        "subject": "book",
+        "object": "eat",
+        "weight": 0.405
+      },
+      {
+        "relation": "PartOf",
+        "subject": "tree",
+        "object": "smart",
+        "weight": 0.865
+      },
+      {
+        "relation": "PartOf",
+        "subject": "bird",
+        "object": "think",
+        "weight": 0.6775
+      },
+      {
+        "relation": "PartOf",
+        "subject": "teacher",
+        "object": "smart",
+        "weight": 0.8700000000000001
+      },
+      {
+        "relation": "PartOf",
+        "subject": "flower",
+        "object": "person",
+        "weight": 0.16249999999999998
+      },
+      {
+        "relation": "PartOf",
+        "subject": "computer",
+        "object": "fast",
+        "weight": 0.825
+      },
+      {
+        "relation": "PartOf",
+        "subject": "child",
+        "object": "dog",
+        "weight": 0.38
+      },
+      {
+        "relation": "PartOf",
+        "subject": "tree",
+        "object": "computer",
+        "weight": 0.5075
+      },
+      {
+        "relation": "PartOf",
+        "subject": "child",
+        "object": "child",
+        "weight": 0.0050000000000000044
+      },
+      {
+        "relation": "PartOf",
+        "subject": "child",
+        "object": "fish",
+        "weight": 0.10249999999999998
+      },
+      {
+        "relation": "PartOf",
+        "subject": "flower",
+        "object": "cat",
+        "weight": 0.34750000000000003
+      },
+      {
+        "relation": "PartOf",
+        "subject": "flower",
+        "object": "think",
+        "weight": 0.7625
+      },
+      {
+        "relation": "PartOf",
+        "subject": "student",
+        "object": "adult",
+        "weight": 0.8775
+      },
+      {
+        "relation": "PartOf",
+        "subject": "dog",
+        "object": "fly",
+        "weight": 0.4075
+      },
+      {
+        "relation": "PartOf",
+        "subject": "fish",
+        "object": "child",
+        "weight": 0.625
+      },
+      {
+        "relation": "PartOf",
+        "subject": "dog",
+        "object": "move",
+        "weight": 0.7525
+      },
+      {
+        "relation": "PartOf",
+        "subject": "adult",
+        "object": "animal",
+        "weight": 0.2825
+      },
+      {
+        "relation": "PartOf",
+        "subject": "dog",
+        "object": "slow",
+        "weight": 0.1275
+      },
+      {
+        "relation": "PartOf",
+        "subject": "car",
+        "object": "big",
+        "weight": 0.8049999999999999
+      },
+      {
+        "relation": "PartOf",
+        "subject": "car",
+        "object": "grow",
+        "weight": 0.3275
+      },
+      {
+        "relation": "PartOf",
+        "subject": "student",
+        "object": "help",
+        "weight": 0.2875
+      },
+      {
+        "relation": "PartOf",
+        "subject": "computer",
+        "object": "tool",
+        "weight": 0.1375
+      },
+      {
+        "relation": "PartOf",
+        "subject": "flower",
+        "object": "book",
+        "weight": 0.35750000000000004
+      },
+      {
+        "relation": "PartOf",
+        "subject": "student",
+        "object": "cat",
+        "weight": 0.79
+      },
+      {
+        "relation": "PartOf",
+        "subject": "fish",
+        "object": "dog",
+        "weight": 0.9575
+      },
+      {
+        "relation": "PartOf",
+        "subject": "dog",
+        "object": "swim",
+        "weight": 0.54
+      },
+      {
+        "relation": "PartOf",
+        "subject": "fish",
+        "object": "learn",
+        "weight": 0.7525
+      },
+      {
+        "relation": "PartOf",
+        "subject": "person",
+        "object": "blue",
+        "weight": 0.38
+      },
+      {
+        "relation": "PartOf",
+        "subject": "fish",
+        "object": "furniture",
+        "weight": 0.9650000000000001
+      },
+      {
+        "relation": "PartOf",
+        "subject": "dog",
+        "object": "cat",
+        "weight": 0.7675000000000001
+      },
+      {
+        "relation": "PartOf",
+        "subject": "dog",
+        "object": "eat",
+        "weight": 0.0025000000000000022
+      },
+      {
+        "relation": "PartOf",
+        "subject": "person",
+        "object": "slow",
+        "weight": 0.875
+      },
+      {
+        "relation": "PartOf",
+        "subject": "cat",
+        "object": "computer",
+        "weight": 0.37250000000000005
+      },
+      {
+        "relation": "PartOf",
+        "subject": "tree",
+        "object": "red",
+        "weight": 0.9824999999999999
+      },
+      {
+        "relation": "PartOf",
+        "subject": "teacher",
+        "object": "move",
+        "weight": 0.0675
+      },
+      {
+        "relation": "PartOf",
+        "subject": "house",
+        "object": "student",
+        "weight": 0.525
+      },
+      {
+        "relation": "PartOf",
+        "subject": "book",
+        "object": "computer",
+        "weight": 0.75
+      },
+      {
+        "relation": "PartOf",
+        "subject": "house",
+        "object": "teach",
+        "weight": 0.2875
+      },
+      {
+        "relation": "PartOf",
+        "subject": "cat",
+        "object": "furniture",
+        "weight": 0.03249999999999997
+      },
+      {
+        "relation": "PartOf",
+        "subject": "car",
+        "object": "plant",
+        "weight": 0.74
+      },
+      {
+        "relation": "PartOf",
+        "subject": "fish",
+        "object": "eat",
+        "weight": 0.645
+      }
+    ]
+  }
+}

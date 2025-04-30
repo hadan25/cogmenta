@@ -1,0 +1,1045 @@
+2025-04-29 18:17:15,550 - RuleTakerTrainer - INFO - Starting RuleTaker training for 5 epochs
+2025-04-29 18:17:15,551 - RuleTakerTrainer - INFO - Dataset not found. Creating synthetic examples...
+2025-04-29 18:17:15,552 - RuleTakerTrainer - INFO - Generating synthetic ProofWriter-like examples
+2025-04-29 18:17:15,555 - RuleTakerTrainer - INFO - Generated 100 synthetic examples for level 1
+2025-04-29 18:17:15,560 - RuleTakerTrainer - INFO - Generated 200 synthetic examples for level 2
+2025-04-29 18:17:15,568 - RuleTakerTrainer - INFO - Generated 300 synthetic examples for level 3
+2025-04-29 18:17:15,578 - RuleTakerTrainer - INFO - Generated 400 synthetic examples for level 4
+2025-04-29 18:17:15,579 - RuleTakerTrainer - INFO - Starting with curriculum level 1
+2025-04-29 18:17:15,580 - RuleTakerTrainer - INFO - Starting epoch 1/5
+2025-04-29 18:17:15,594 - RuleTakerTrainer - INFO - Loaded 100 examples for level 1
+2025-04-29 18:17:15,775 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,776 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,777 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,777 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,778 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,779 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,779 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,780 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,781 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,781 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,782 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,782 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,782 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,783 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,783 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,783 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,784 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,784 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,784 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,785 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,785 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,785 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,785 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,786 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,786 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,786 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,786 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,786 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,787 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,787 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,787 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,787 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,788 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,788 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,788 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,788 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,788 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,789 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,789 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,789 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,789 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,789 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,790 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,790 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,790 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,790 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,790 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,791 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,791 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,791 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,792 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,792 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,792 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,792 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,793 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,793 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,793 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,793 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,793 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,794 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,794 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,794 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,794 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,795 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,795 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,795 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,795 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,796 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,796 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,796 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,797 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,797 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,797 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,798 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,798 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,798 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,798 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,799 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,799 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,799 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,799 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,799 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,800 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,800 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,800 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,800 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,800 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,801 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,801 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,801 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,802 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,802 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,802 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,803 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,803 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,803 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,803 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,804 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,804 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,804 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,805 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,805 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,805 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,805 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,806 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,806 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,806 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,806 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,806 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,807 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,807 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,807 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,807 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,807 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,808 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,808 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,808 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,808 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,808 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,809 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,809 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,809 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,809 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,809 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,809 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,810 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,810 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,810 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,810 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,810 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,811 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,811 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,811 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,811 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,812 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,812 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,812 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,813 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,813 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,813 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,813 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,814 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,814 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,814 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,814 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,815 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,815 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,815 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,815 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,815 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,816 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,816 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,816 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,816 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,817 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,817 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,817 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,817 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,817 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,818 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,818 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,818 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,818 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,818 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,819 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,819 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,819 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,819 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,819 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,819 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,820 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,820 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,820 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,820 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,820 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,821 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,821 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,821 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,821 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,821 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,822 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,822 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,822 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,822 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,823 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,823 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,823 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,824 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,824 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,824 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,825 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,825 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,825 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,825 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,825 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,825 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,826 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,826 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,826 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,826 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,827 - RuleTakerTrainer - INFO - Epoch 1 metrics - Accuracy: 0.0000, Explanation quality: 0.0000
+2025-04-29 18:17:15,827 - RuleTakerTrainer - INFO - Starting epoch 2/5
+2025-04-29 18:17:15,828 - RuleTakerTrainer - INFO - Loaded 100 examples for level 1
+2025-04-29 18:17:15,829 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,830 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,830 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,830 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,831 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,831 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,831 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,831 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,832 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,832 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,832 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,832 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,832 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,833 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,833 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,833 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,833 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,833 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,833 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,834 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,834 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,834 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,834 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,834 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,835 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,835 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,835 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,835 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,835 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,835 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,836 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,836 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,836 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,836 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,836 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,836 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,837 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,837 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,837 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,837 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,838 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,838 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,838 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,838 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,839 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,839 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,839 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,839 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,839 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,840 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,840 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,840 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,840 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,840 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,841 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,841 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,841 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,841 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,841 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,841 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,842 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,842 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,842 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,842 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,842 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,843 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,843 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,844 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,844 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,844 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,844 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,844 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,845 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,845 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,846 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,846 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,846 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,846 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,847 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,847 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,847 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,847 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,848 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,848 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,848 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,848 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,848 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,849 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,849 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,849 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,849 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,850 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,851 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,851 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,851 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,851 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,852 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,852 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,852 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,852 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,852 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,853 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,853 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,853 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,853 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,854 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,854 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,854 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,854 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,855 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,855 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,855 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,855 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,855 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,856 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,856 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,856 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,857 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,857 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,857 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,857 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,858 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,858 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,858 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,858 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,858 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,859 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,859 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,859 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,859 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,859 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,860 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,860 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,860 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,860 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,860 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,860 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,861 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,861 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,861 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,861 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,862 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,862 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,862 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,862 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,863 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,863 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,863 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,863 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,863 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,864 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,864 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,864 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,864 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,864 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,865 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,865 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,865 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,865 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,865 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,866 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,866 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,866 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,866 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,866 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,867 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,867 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,867 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,867 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,867 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,867 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,868 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,868 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,868 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,868 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,868 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,869 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,869 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,869 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,870 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,870 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,870 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,870 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,871 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,871 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,871 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,871 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,871 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,872 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,872 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,872 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,872 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,872 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,872 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,873 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,873 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,873 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,873 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,874 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,874 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,874 - RuleTakerTrainer - INFO - Epoch 2 metrics - Accuracy: 0.0000, Explanation quality: 0.0000
+2025-04-29 18:17:15,874 - RuleTakerTrainer - INFO - Starting epoch 3/5
+2025-04-29 18:17:15,875 - RuleTakerTrainer - INFO - Loaded 100 examples for level 1
+2025-04-29 18:17:15,876 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,876 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,877 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,877 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,877 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,877 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,878 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,878 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,879 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,879 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,879 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,880 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,880 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,880 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,881 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,881 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,881 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,881 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,882 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,882 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,883 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,883 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,883 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,883 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,884 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,884 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,884 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,885 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,885 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,885 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,886 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,886 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,886 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,886 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,887 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,887 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,887 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,887 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,888 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,888 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,888 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,888 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,889 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,889 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,889 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,890 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,890 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,890 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,891 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,891 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,891 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,892 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,892 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,892 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,892 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,893 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,893 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,893 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,893 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,894 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,894 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,894 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,895 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,895 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,896 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,896 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,896 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,897 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,897 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,897 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,897 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,898 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,898 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,898 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,898 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,899 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,899 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,899 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,899 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,899 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,900 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,900 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,900 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,900 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,901 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,901 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,902 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,902 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,903 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,903 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,904 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,904 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,904 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,905 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,905 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,905 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,906 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,906 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,906 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,907 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,907 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,907 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,908 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,908 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,908 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,909 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,909 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,909 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,909 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,910 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,910 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,910 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,910 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,910 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,911 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,911 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,911 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,911 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,912 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,912 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,912 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,912 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,913 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,913 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,913 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,913 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,914 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,914 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,914 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,914 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,915 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,915 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,916 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,916 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,916 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,917 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,917 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,917 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,917 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,918 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,918 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,918 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,919 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,919 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,919 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,919 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,919 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,920 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,920 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,920 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,920 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,920 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,921 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,921 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,921 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,921 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,922 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,922 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,922 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,922 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,923 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,923 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,923 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,923 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,923 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,923 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,924 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,924 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,924 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,924 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,924 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,924 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,925 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,925 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,925 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,925 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,925 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,926 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,926 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,926 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,926 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,926 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,927 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,927 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,927 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,927 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,927 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,928 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,928 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,928 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,928 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,929 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,929 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,930 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,930 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,930 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,931 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,931 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,931 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,931 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,932 - RuleTakerTrainer - INFO - Epoch 3 metrics - Accuracy: 0.0000, Explanation quality: 0.0000
+2025-04-29 18:17:15,932 - RuleTakerTrainer - INFO - Starting epoch 4/5
+2025-04-29 18:17:15,933 - RuleTakerTrainer - INFO - Loaded 100 examples for level 1
+2025-04-29 18:17:15,933 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,933 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,934 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,934 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,934 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,934 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,934 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,934 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,935 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,935 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,935 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,935 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,936 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,936 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,936 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,936 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,936 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,937 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,937 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,937 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,937 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,937 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,937 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,938 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,938 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,938 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,938 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,938 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,938 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,939 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,939 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,939 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,939 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,939 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,940 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,940 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,940 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,940 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,940 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,940 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,941 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,941 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,941 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,941 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,941 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,942 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,942 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,942 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,942 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,942 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,943 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,943 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,943 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,943 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,943 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,944 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,944 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,944 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,944 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,944 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,944 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,945 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,945 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,945 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,946 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,946 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,946 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,946 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,947 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,947 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,947 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,947 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,948 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,948 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,948 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,948 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,949 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,949 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,949 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,949 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,950 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,950 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,950 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,950 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,950 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,950 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,951 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,951 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,951 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,951 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,951 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,952 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,952 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,952 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,952 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,952 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,952 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,953 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,953 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,953 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,953 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,953 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,954 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,954 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,954 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,954 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,955 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,955 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,955 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,955 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,955 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,956 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,956 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,956 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,956 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,956 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,957 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,957 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,957 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,957 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,957 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,958 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,958 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,958 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,958 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,958 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,958 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,959 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,959 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,959 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,959 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,959 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,960 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,960 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,960 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,960 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,960 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,960 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,961 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,961 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,962 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,962 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,963 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,964 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,965 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,965 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,965 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,966 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,966 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,966 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,967 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,967 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,968 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,968 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,968 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,969 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,969 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,969 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,969 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,969 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,970 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,970 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,970 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,970 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,970 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,970 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,971 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,971 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,971 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,971 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,972 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,972 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,972 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,972 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,972 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,972 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,973 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,973 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,973 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,973 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,973 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,974 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,974 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,974 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,974 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,975 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,975 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,975 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,975 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,975 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,976 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,976 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,976 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,976 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,976 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,977 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,977 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,977 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,977 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,977 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,978 - RuleTakerTrainer - INFO - Epoch 4 metrics - Accuracy: 0.0000, Explanation quality: 0.0000
+2025-04-29 18:17:15,979 - RuleTakerTrainer - INFO - Starting epoch 5/5
+2025-04-29 18:17:15,980 - RuleTakerTrainer - INFO - Loaded 100 examples for level 1
+2025-04-29 18:17:15,981 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,981 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,981 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,982 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,982 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,982 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,982 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,982 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,983 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,983 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,983 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,983 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,983 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,983 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,984 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,984 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,984 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,984 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,984 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,984 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,985 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,985 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,985 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,985 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,985 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,985 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,986 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,986 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,986 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,986 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,986 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,987 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,987 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,988 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,988 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,988 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,988 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,988 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,989 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,989 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,989 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,989 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,989 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,989 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,990 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,990 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,990 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,990 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,990 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,990 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,991 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,991 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,991 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,991 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,991 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,992 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,992 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,992 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,992 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,992 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,992 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,993 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,993 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,993 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,994 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,994 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,994 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,994 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,995 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,995 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,995 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,996 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,996 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,996 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,997 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,997 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,997 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,997 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,998 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,998 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,998 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,998 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,998 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,999 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,999 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,999 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:15,999 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:15,999 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,000 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,000 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,000 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,000 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,001 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,001 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,001 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,001 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,001 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,002 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,002 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,002 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,002 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,002 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,003 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,003 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,003 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,003 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,003 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,003 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,004 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,004 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,004 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,004 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,004 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,005 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,005 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,005 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,005 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,005 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,005 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,006 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,006 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,006 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,006 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,006 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,007 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,007 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,007 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,008 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,008 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,008 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,008 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,008 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,008 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,009 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,009 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,009 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,009 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,009 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,009 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,010 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,010 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,010 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,010 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,010 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,010 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,011 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,011 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,011 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,012 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,013 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,013 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,013 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,014 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,014 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,015 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,015 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,015 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,015 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,015 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,016 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,016 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,016 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,016 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,016 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,017 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,017 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,017 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,017 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,017 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,017 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,018 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,018 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,018 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,018 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,018 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,019 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,019 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,019 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,019 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,019 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,020 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,020 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,020 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,020 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,020 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,021 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,021 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,021 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,021 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,021 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,022 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,022 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,022 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,022 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,022 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,022 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,023 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,023 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,023 - RuleTakerTrainer - WARNING - No Prolog engine available
+2025-04-29 18:17:16,023 - RuleTakerTrainer - WARNING - No logical inference engine available
+2025-04-29 18:17:16,024 - RuleTakerTrainer - INFO - Epoch 5 metrics - Accuracy: 0.0000, Explanation quality: 0.0000
+2025-04-29 18:17:16,101 - RuleTakerTrainer - INFO - Saved training state and metrics
+2025-04-29 18:17:16,103 - RuleTakerTrainer - INFO - RuleTaker training completed with accuracy: 0.0000
+2025-04-29 18:20:21,906 - RuleTakerTrainer - INFO - Starting RuleTaker training for 5 epochs
+2025-04-29 18:20:21,907 - RuleTakerTrainer - INFO - Found 4 dataset files
+2025-04-29 18:20:21,908 - RuleTakerTrainer - INFO - Starting with curriculum level 1
+2025-04-29 18:20:21,908 - RuleTakerTrainer - INFO - Starting epoch 1/5
+2025-04-29 18:20:21,909 - RuleTakerTrainer - INFO - Loaded 100 examples for level 1
+2025-04-29 18:20:21,955 - RuleTakerTrainer - INFO - Epoch 1 metrics - Accuracy: 0.5800, Explanation quality: 0.0000
+2025-04-29 18:20:21,955 - RuleTakerTrainer - INFO - Starting epoch 2/5
+2025-04-29 18:20:21,956 - RuleTakerTrainer - INFO - Loaded 100 examples for level 1
+2025-04-29 18:20:21,984 - RuleTakerTrainer - INFO - Epoch 2 metrics - Accuracy: 0.2600, Explanation quality: 0.0000
+2025-04-29 18:20:21,985 - RuleTakerTrainer - INFO - Starting epoch 3/5
+2025-04-29 18:20:21,986 - RuleTakerTrainer - INFO - Loaded 100 examples for level 1
+2025-04-29 18:20:22,024 - RuleTakerTrainer - INFO - Epoch 3 metrics - Accuracy: 0.2600, Explanation quality: 0.0000
+2025-04-29 18:20:22,024 - RuleTakerTrainer - INFO - Starting epoch 4/5
+2025-04-29 18:20:22,026 - RuleTakerTrainer - INFO - Loaded 100 examples for level 1
+2025-04-29 18:20:22,070 - RuleTakerTrainer - INFO - Epoch 4 metrics - Accuracy: 0.2600, Explanation quality: 0.0000
+2025-04-29 18:20:22,071 - RuleTakerTrainer - INFO - Starting epoch 5/5
+2025-04-29 18:20:22,073 - RuleTakerTrainer - INFO - Loaded 100 examples for level 1
+2025-04-29 18:20:22,137 - RuleTakerTrainer - INFO - Epoch 5 metrics - Accuracy: 0.2600, Explanation quality: 0.0000
+2025-04-29 18:20:22,139 - RuleTakerTrainer - INFO - Saved training state and metrics
+2025-04-29 18:20:22,140 - RuleTakerTrainer - INFO - RuleTaker training completed with accuracy: 0.3240

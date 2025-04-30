@@ -1,0 +1,21 @@
+2025-04-29 18:15:37,261 - AtomicTrainer - INFO - Starting ATOMIC training for 1 epochs
+2025-04-29 18:15:37,262 - AtomicTrainer - INFO - Dataset not found. Creating synthetic examples...
+2025-04-29 18:15:37,263 - AtomicTrainer - INFO - Generating synthetic ATOMIC-like examples
+2025-04-29 18:15:37,278 - AtomicTrainer - INFO - Generated 1500 synthetic examples
+2025-04-29 18:15:37,284 - AtomicTrainer - INFO - Starting epoch 1/1
+2025-04-29 18:15:37,301 - AtomicTrainer - INFO - Loaded 1500 examples
+2025-04-29 18:15:37,304 - AtomicTrainer - INFO - Epoch 1 metrics - Causal: 0.3640, Social: 0.3160, Temporal: 0.3400, Overall: 0.3400
+2025-04-29 18:15:37,306 - AtomicTrainer - INFO - Saved training state and metrics
+2025-04-29 18:15:37,306 - AtomicTrainer - INFO - ATOMIC training completed with accuracy: 0.3400
+2025-04-29 18:17:15,538 - AtomicTrainer - INFO - Starting ATOMIC training for 1 epochs
+2025-04-29 18:17:15,539 - AtomicTrainer - INFO - Starting epoch 1/1
+2025-04-29 18:17:15,542 - AtomicTrainer - INFO - Loaded 1500 examples
+2025-04-29 18:17:15,545 - AtomicTrainer - INFO - Epoch 1 metrics - Causal: 0.3660, Social: 0.3460, Temporal: 0.3660, Overall: 0.3593
+2025-04-29 18:17:15,546 - AtomicTrainer - INFO - Saved training state and metrics
+2025-04-29 18:17:15,547 - AtomicTrainer - INFO - ATOMIC training completed with accuracy: 0.3593
+2025-04-29 18:20:21,893 - AtomicTrainer - INFO - Starting ATOMIC training for 1 epochs
+2025-04-29 18:20:21,894 - AtomicTrainer - INFO - Starting epoch 1/1
+2025-04-29 18:20:21,897 - AtomicTrainer - INFO - Loaded 1500 examples
+2025-04-29 18:20:21,900 - AtomicTrainer - INFO - Epoch 1 metrics - Causal: 0.3760, Social: 0.3340, Temporal: 0.3640, Overall: 0.3580
+2025-04-29 18:20:21,901 - AtomicTrainer - INFO - Saved training state and metrics
+2025-04-29 18:20:21,902 - AtomicTrainer - INFO - ATOMIC training completed with accuracy: 0.3580

@@ -1,0 +1,43 @@
+{
+  "training_stats": {
+    "symbol_grounding": [
+      {
+        "epoch": 1,
+        "accuracy": 1.0,
+        "confidence": 0.8,
+        "examples_processed": 5
+      },
+      {
+        "epoch": 2,
+        "accuracy": 1.0,
+        "confidence": 0.8,
+        "examples_processed": 5
+      }
+    ],
+    "relation_extraction": [
+      {
+        "epoch": 1,
+        "accuracy": 0.9285714285714286,
+        "loss": 0.24285714285714288,
+        "examples_processed": 14,
+        "val_accuracy": 0.6666666666666666,
+        "val_loss": 0.19999999999999996
+      },
+      {
+        "epoch": 2,
+        "accuracy": 0.9285714285714286,
+        "loss": 0.24285714285714288,
+        "examples_processed": 14,
+        "val_accuracy": 0.6666666666666666,
+        "val_loss": 0.19999999999999996
+      }
+    ],
+    "abstraction": [],
+    "integration": []
+  },
+  "timestamp": 1745903550.5882225,
+  "components": {
+    "concepts": 0,
+    "vector_facts": 16
+  }
+}
