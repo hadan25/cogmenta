@@ -1,0 +1,58 @@
+[
+  {
+    "role": "user",
+    "content": "Hi how is it going",
+    "time": "2025-04-12 12:19:38"
+  },
+  {
+    "role": "system",
+    "content": "I don't have enough information to provide a response.",
+    "processing_time": 0.04777359962463379,
+    "internal_state": {
+      "system_status": {
+        "components": {
+          "bridge": "NeuroSymbolicBridge",
+          "memory": "MemoryManager",
+          "goal_system": null,
+          "reflection_system": null,
+          "ethical_system": null
+        },
+        "processing_history": 1,
+        "ready_for_phase2": {
+          "basic_ready": true,
+          "advanced_ready": true,
+          "overall_ready": true
+        }
+      }
+    },
+    "time": "2025-04-12 12:19:38"
+  },
+  {
+    "role": "user",
+    "content": "Hi what is going on",
+    "time": "2025-04-12 12:50:42"
+  },
+  {
+    "role": "system",
+    "content": "I don't have enough information to provide a response.",
+    "processing_time": 0.006470918655395508,
+    "internal_state": {
+      "system_status": {
+        "components": {
+          "bridge": "NeuroSymbolicBridge",
+          "memory": "MemoryManager",
+          "goal_system": null,
+          "reflection_system": null,
+          "ethical_system": null
+        },
+        "processing_history": 2,
+        "ready_for_phase2": {
+          "basic_ready": true,
+          "advanced_ready": true,
+          "overall_ready": true
+        }
+      }
+    },
+    "time": "2025-04-12 12:50:42"
+  }
+]

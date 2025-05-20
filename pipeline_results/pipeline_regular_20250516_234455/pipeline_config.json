@@ -1,0 +1,12 @@
+{
+  "mode": "regular",
+  "models": [
+    "decision"
+  ],
+  "scale": 1.0,
+  "timeout": 3600,
+  "experiment_preset": "minimal",
+  "parallel": false,
+  "visualize": true,
+  "timestamp": "2025-05-16 23:44:55"
+}

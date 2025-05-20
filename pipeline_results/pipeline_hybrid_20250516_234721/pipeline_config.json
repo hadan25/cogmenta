@@ -1,0 +1,14 @@
+{
+  "mode": "hybrid",
+  "models": [
+    "memory",
+    "decision",
+    "metacognitive"
+  ],
+  "scale": 1.0,
+  "timeout": 300,
+  "experiment_preset": "minimal",
+  "parallel": true,
+  "visualize": false,
+  "timestamp": "2025-05-16 23:47:21"
+}

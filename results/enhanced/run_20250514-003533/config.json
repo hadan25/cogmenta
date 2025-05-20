@@ -1,0 +1,9 @@
+{
+  "iterations": 1000,
+  "log_interval": 50,
+  "use_real_snns": true,
+  "use_real_symbolic": false,
+  "task_complexity": 0.5,
+  "emphasized_component": null,
+  "timestamp": "2025-05-14 00:35:33"
+}

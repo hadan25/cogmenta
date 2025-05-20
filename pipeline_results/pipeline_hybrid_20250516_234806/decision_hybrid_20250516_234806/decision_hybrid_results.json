@@ -1,0 +1,16 @@
+{
+  "model_type": "decision",
+  "mode": "hybrid",
+  "parameters": {
+    "neurons": 1200,
+    "regular_epochs": 2,
+    "absolute_iterations": 24,
+    "cycles": 1,
+    "transfer_knowledge": 0,
+    "scale_factor": 1.3,
+    "timeout": 900
+  },
+  "success": true,
+  "elapsed_time": 12.761301517486572,
+  "timestamp": "2025-05-16 23:48:19"
+}

@@ -1,0 +1,16 @@
+{
+  "model_type": "memory",
+  "mode": "hybrid",
+  "parameters": {
+    "neurons": 1000,
+    "regular_epochs": 1,
+    "absolute_iterations": 22,
+    "cycles": 1,
+    "transfer_knowledge": 1,
+    "scale_factor": 1.5,
+    "timeout": 450
+  },
+  "success": false,
+  "elapsed_time": 0.12778401374816895,
+  "timestamp": "2025-05-16 23:56:51"
+}

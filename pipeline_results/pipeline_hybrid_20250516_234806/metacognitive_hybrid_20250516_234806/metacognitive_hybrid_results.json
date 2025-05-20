@@ -1,0 +1,16 @@
+{
+  "model_type": "metacognitive",
+  "mode": "hybrid",
+  "parameters": {
+    "neurons": 640,
+    "regular_epochs": 1,
+    "absolute_iterations": 21,
+    "cycles": 1,
+    "transfer_knowledge": 0,
+    "scale_factor": 1.4,
+    "timeout": 675
+  },
+  "success": true,
+  "elapsed_time": 9.720881700515747,
+  "timestamp": "2025-05-16 23:48:16"
+}

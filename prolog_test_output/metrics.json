@@ -1,0 +1,38 @@
+{
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 6,
+  "timestamp": "2025-05-06 00:16:41",
+  "results": [
+    {
+      "query": "confident_fact(is_a, dog, animal, C).",
+      "expected": true,
+      "error": "'PrologEngine' object has no attribute 'query'"
+    },
+    {
+      "query": "confident_fact(is_a, dog, living_thing, C).",
+      "expected": true,
+      "error": "'PrologEngine' object has no attribute 'query'"
+    },
+    {
+      "query": "confident_fact(is_a, sparrow, animal, C).",
+      "expected": true,
+      "error": "'PrologEngine' object has no attribute 'query'"
+    },
+    {
+      "query": "confident_fact(is_a, penguin, animal, C).",
+      "expected": true,
+      "error": "'PrologEngine' object has no attribute 'query'"
+    },
+    {
+      "query": "confident_fact(can, penguin, fly, C).",
+      "expected": false,
+      "error": "'PrologEngine' object has no attribute 'query'"
+    },
+    {
+      "query": "confident_fact(is_a, human, animal, C).",
+      "expected": false,
+      "error": "'PrologEngine' object has no attribute 'query'"
+    }
+  ]
+}
