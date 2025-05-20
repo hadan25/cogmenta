@@ -1,0 +1,78 @@
+{
+  "output_dir": "./snn_pipeline_output",
+  "enable_fidelity_gate": true,
+  "enable_training": true,
+  "enable_evaluation": true,
+  
+  "bidirectional_processor": {
+    "vector_dim": 300,
+    "model_type": "generic"
+  },
+  
+  "fidelity_gate": {
+    "modalities": ["text", "vector"],
+    "fail_action": "exit",
+    "thresholds": {
+      "text": {
+        "cosine_similarity": 0.95,
+        "semantic_similarity": 0.90,
+        "retention_score": 0.90
+      },
+      "vector": {
+        "cosine_similarity": 0.999,
+        "mse": 0.001,
+        "retention_score": 0.99
+      }
+    }
+  },
+  
+  "processors": {
+    "snn_perceptual": {
+      "vector_dim": 300,
+      "neuron_count": 500,
+      "encoding_type": "temporal",
+      "precision_level": 4,
+      "timesteps": 20,
+      "modalities": ["text", "vector"],
+      "epochs": 20,
+      "batch_size": 64,
+      "training_approach": "hybrid"
+    },
+    "snn_cognitive": {
+      "vector_dim": 300,
+      "neuron_count": 800,
+      "encoding_type": "population",
+      "precision_level": 5,
+      "timesteps": 30,
+      "modalities": ["text", "vector"],
+      "epochs": 15,
+      "batch_size": 32,
+      "training_approach": "pretraining"
+    },
+    "snn_reasoning": {
+      "vector_dim": 300,
+      "neuron_count": 1000,
+      "encoding_type": "temporal",
+      "precision_level": 5,
+      "timesteps": 40,
+      "modalities": ["text", "vector"],
+      "epochs": 25,
+      "batch_size": 16,
+      "training_approach": "absolute_zero"
+    }
+  },
+  
+  "trainer": {
+    "vector_dim": 300,
+    "neuron_count": 500,
+    "training_approach": "hybrid",
+    "learning_rate": 0.001,
+    "temperature": 0.5,
+    "reward_scale": 1.0,
+    "epochs": 20,
+    "batch_size": 32,
+    "train_only_passed": true,
+    "enable_joint_training": true,
+    "joint_epochs": 10
+  }
+} 
