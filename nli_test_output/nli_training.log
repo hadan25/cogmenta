@@ -1,6 +1,0 @@
-2025-04-29 20:32:27,136 - NLITrainer - INFO - NLI trainer initialized
-2025-04-29 20:32:27,138 - NLITrainer - INFO - DEBUG: Checking for dataset at absolute path: C:\Users\ha25a\.vscode\cogmenta\training\datasets\nli\snli.json
-2025-04-29 20:32:27,138 - NLITrainer - INFO - DEBUG: Current working directory: C:\Users\ha25a\.vscode\cogmenta
-2025-04-29 20:32:27,139 - NLITrainer - INFO - DEBUG: Does the file exist? True
-2025-04-29 20:32:27,139 - NLITrainer - INFO - Using existing dataset: training\datasets\nli\snli.json
-2025-04-29 20:32:27,140 - NLITrainer - INFO - Loading examples from training\datasets\nli\snli.json
