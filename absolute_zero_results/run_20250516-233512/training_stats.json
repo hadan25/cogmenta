@@ -1,0 +1,32 @@
+{
+  "iterations": 20,
+  "total_reward": 0.0,
+  "accuracy_history": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "config": {
+    "use_mock": true,
+    "experiment": "paired_association",
+    "neurons": 600,
+    "timestamp": "2025-05-16 23:35:13"
+  }
+}

@@ -1,8 +1,8 @@
 # cogmenta_core/api/thought_trace_api.py
 
 from flask import Blueprint, jsonify, request
-from cogmenta_core.cognitive.thought_tracer import ThoughtTrace
-from cogmenta_core.visualization.reasoning_path_viz import ReasoningPathVisualizer
+from cognitive.thought_tracer import ThoughtTrace
+from visualization.reasoning_path_viz import ReasoningPathVisualizer
 
 thought_trace_api = Blueprint('thought_trace_api', __name__)
 thought_trace = ThoughtTrace()  # Singleton instance
