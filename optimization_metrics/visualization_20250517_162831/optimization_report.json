@@ -1,0 +1,77 @@
+{
+  "timestamp": "2025-05-17T16:28:32.829997",
+  "resource_allocation": {
+    "memory": [
+      {
+        "cycle": 0,
+        "task_type": "semantic_memory",
+        "neurons": 300,
+        "precision": "fp16",
+        "sparsity": 0.7,
+        "timestamp": "2025-05-17T16:28:31.083871"
+      }
+    ],
+    "decision": [
+      {
+        "cycle": 0,
+        "task_type": "semantic_memory",
+        "neurons": 300,
+        "precision": "fp16",
+        "sparsity": 0.7,
+        "timestamp": "2025-05-17T16:28:31.084022"
+      }
+    ],
+    "metacognitive": [
+      {
+        "cycle": 0,
+        "task_type": "semantic_memory",
+        "neurons": 300,
+        "precision": "fp16",
+        "sparsity": 0.7,
+        "timestamp": "2025-05-17T16:28:31.084104"
+      }
+    ],
+    "statistical": [
+      {
+        "cycle": 0,
+        "task_type": "semantic_memory",
+        "neurons": 300,
+        "precision": "fp16",
+        "sparsity": 0.7,
+        "timestamp": "2025-05-17T16:28:31.084173"
+      }
+    ],
+    "perceptual": [
+      {
+        "cycle": 0,
+        "task_type": "semantic_memory",
+        "neurons": 300,
+        "precision": "fp16",
+        "sparsity": 0.7,
+        "timestamp": "2025-05-17T16:28:31.084238"
+      }
+    ],
+    "reasoning": [
+      {
+        "cycle": 0,
+        "task_type": "semantic_memory",
+        "neurons": 300,
+        "precision": "fp16",
+        "sparsity": 0.7,
+        "timestamp": "2025-05-17T16:28:31.084314"
+      }
+    ],
+    "affective": [
+      {
+        "cycle": 0,
+        "task_type": "semantic_memory",
+        "neurons": 200,
+        "precision": "fp16",
+        "sparsity": 0.8,
+        "timestamp": "2025-05-17T16:28:31.084382"
+      }
+    ]
+  },
+  "weight_statistics": {},
+  "training_progress": {}
+}
