@@ -1,4 +1,0 @@
-numpy
-pandas
-tqdm
-huggingface_hub

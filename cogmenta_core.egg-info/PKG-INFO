@@ -1,8 +1,0 @@
-Metadata-Version: 2.4
-Name: cogmenta_core
-Version: 0.1
-Requires-Dist: numpy
-Requires-Dist: pandas
-Requires-Dist: tqdm
-Requires-Dist: huggingface_hub
-Dynamic: requires-dist
